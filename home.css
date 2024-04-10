@@ -1,0 +1,52 @@
+  .img {
+    background-image: url(ELEPHANT.jpg); 
+    background-size: cover;
+     height: 500px;
+    
+    }
+        .EX {font-weight: bold;font-size: 60px;
+        color: red;display:flex;justify-content: center;
+    margin-inline-start: 2PX;}
+           .EA {font-weight: bold;
+            font-size: 50px; 
+            color: aquamarine;
+            display:flex;
+            justify-content: center;
+    margin-inline-start: 2PX;
+    font-size: 40px;} 
+    .wonder {font-size: 25px;
+    word-spacing: 5px;
+margin-left: 30px;}
+    .home { font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+    .GET {background: fixed;
+        background-color: 
+        black;background-position-x:center;
+    font-size: 20PX;
+    color: beige;
+    margin-top: 50px;
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 20px;}
+    .quick {color:yellow;}
+    .mom {
+        color: white;
+        font-size: 30px;
+        justify-content: center;
+margin: 20px;
+        border: 1PX;
+        box-shadow: 0 4PX 8PX;
+        background-color: orange;
+    }
+    #view {
+        text-align: center;
+margin: 30px;
+
+    }
+    img {
+        width: 700px;
+        height: 500px;
+    }
+    

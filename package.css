@@ -1,0 +1,1074 @@
+
+body {background-color:rgb(239, 245, 247);
+width: 150% auto;
+flex-wrap: wrap;
+}
+.main {
+    background-image: url(davis.jpg);
+    background-size: cover;
+    height: 400px;
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.head { background-image: url(murchison-falls-park.jpg);
+     height: 400px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+margin-top: 20px;
+padding-top: 30px;}
+h1 {color: rgb(255, 0, 76);
+text-align: center;
+font-style: italic;
+font-size: 50px;}
+h2 {color: red;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 40px;}
+.EXPLORE {color: brown;
+font-size: 50PX;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;}
+.private {font-size:
+     25px;
+     color: rgb(48, 43, 43);
+}
+.holiday {font-size: 50px;
+color: brown;
+font-style:italic;
+margin-top: 25px;
+margin-bottom: 15px;}
+.DAY {font-size: 25PX;}
+
+.homes {font-size: 15px;
+display: flex;
+position: sticky;
+top: 50px;
+margin-bottom: 1opx;
+flex-direction: row;
+justify-content: space-around;}
+.caption1 {font-size: 15px;
+}
+nav {
+    margin-top: -20px;
+    border-bottom: 5px grey solid;
+width: 100%;
+border-radius: 10px;
+height: 70px;
+background-color: rgb(52, 212, 159);
+position: sticky;
+top: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    color:white;
+    padding-top: 30px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    transform: scale(1.2);
+    color: blue;
+}
+ .caption2 {font-size: 20px;
+color: red;
+margin-left: 35px;} 
+
+.radius {border-radius: 10% ;}
+.GET {background-color:rgb(24, 24, 36);
+font-size: 10px;
+margin-top: 50px;
+color: whitesmoke;
+padding: 20px;
+width: 100%;
+font-weight: normal;
+margin-left: -25px;
+margin-right: -30px;
+word-spacing: 5px;
+}
+.DOG {margin-top: 50px;
+box-shadow: 0 4px 8px;
+padding-left: 30px;
+margin: 15px;
+border-radius: 10px;
+position: relative;
+width: 450PX;
+height: 400px;
+transition: transform 10S ease;
+
+}
+
+.DOG:hover {
+    transform: scale(1.2);
+}
+#dots {
+    display: flex;
+}
+.whatsapp span {
+    border: 1rem green;
+    
+    color: white;
+    border-radius: 2rem;
+    width: 10rem;
+    padding: 1rem;
+    padding: 5px;
+   position: absolute;
+   margin-left: -0.1in;
+
+}
+.email{
+background-color: blue;
+border-radius: 3rem;
+padding: 10px;
+height: 2rem;
+margin: 10px;
+width: 15rem;
+position: fixed;
+left: 30rem;
+top: 20rem;
+}
+.email img {
+    height: 2rem;
+    width: 2rem;
+
+    position: relative;
+}
+.email span {
+    position: absolute;
+    margin: 5px;
+    color: white;
+}
+.whatsapp {
+width: 15rem;
+height: 2rem;
+background-color: green;
+border-radius: 2rem;
+padding: 0.5rem;
+position: fixed;
+top: 100px;
+}
+.whatsapp :hover{
+    transform: translate(2);
+}
+a {
+ text-decoration: none;}
+.car {
+    display: flex;
+   transition: transform 5s ease-in-out;
+    flex-wrap: wrap;
+margin-left: 100px;
+position: relative;
+}
+.icon {
+position: relative;
+    height: 2rem;
+    width: 2rem;
+    font-size: 10rem;
+}
+.dog {
+    align-items: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+     margin: 50px 20px;
+    width: 1300px;
+}
+.DOG.active {
+    opacity: 1;
+}
+.dog[data-animated=true] {
+    overflow: hidden;
+   /* -webkit-mask: linear-gradient(transparent,white);
+    mask: linear-gradient(transparent,white);*/
+    margin: 50px 20px;
+}
+.dog[data-animated=true] .car {
+    margin: 20px 50px;
+    flex-wrap: nowrap;
+    
+    
+    cursor: pointer;
+    animation: scroll 136s linear infinite;
+}
+@keyframes scroll {
+   
+    to {
+        transform: translate(-400%);
+    }
+}
+
+
+.plate {margin-top: 50px;
+    box-shadow: 0 4px 8px;
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    position: relative;
+    width: 500PX;
+    height: 500px;}
+   
+.quick {color: yellow;
+font-size: 35px;
+font-style: italic;}
+.books {
+width: 80%;
+}
+.for {
+    margin: 20px;
+}
+
+.primate {
+    background-image: url(Kyamburu_Gorge_004@2x.jpg);
+    width: 10% auto;
+    background-size: cover;
+    object-fit: cover;
+    font-size: 50px;
+    text-align: center;
+    height: 400px;
+    color: aliceblue;
+    padding-top: 50px;
+    
+}
+body { font-size: 20px;
+word-spacing: 5px;
+padding: 10px;}
+#out {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@keyframes slideIn {
+    0% {transform: translateX(-100%)}
+    100% {
+        transform: translateX(100%);
+    }
+ }
+ .plat {margin-top: 50px;
+    box-shadow: 0 4px 8px;
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    position: relative;
+    width: 500PX;
+    height: 600px;
+    transition: transform 10S ease
+ }
+ .man {
+    display: flex;
+margin-left: 50px;
+}
+
+ .plat:hover {
+    transform: scale(1.2);
+ }
+ 
+ 
+.one {
+    font-size: 25px;
+    font-style: italic;
+    color: green;
+    background-color: beige;
+    padding-bottom: 20px;
+}
+.href {
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+}
+img {
+    width: 300Px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 5px;
+}
+html {
+    justify-content: center;
+
+
+}
+.menu {
+list-style: none;
+margin-top: 2px;
+padding: 3px;
+display: none;
+text-align: right;
+}
+
+#Entry {
+    display: flex;
+    flex-direction: row;
+}
+#MTN {
+    display: flex;
+    justify-content: space-around;
+}
+.menu li {
+    position: relative;
+    
+}
+.privat {
+    color: red;
+    font-size: 35px;
+    font: italic;
+}
+.in {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.on {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+p {font-size: 25px;}
+.menu li:before {
+    content: '\2022';
+    position: abdolute;
+
+}
+@media( max-width:768px){
+    .home {display: block;}
+    .menu {display: table-colum;}
+    #Entry {display: block;
+    width: 1000px;}
+    #MTN {display: block;
+    width: 300%;}
+    .link {display: none;}
+    .from{width: 50%;
+        width: 50px;
+        background-color: rgb(250, 147, 11);
+    }
+    .info{
+        width: 15rem;
+    }
+    body{
+        width: 100%;
+    }
+    .dog {
+        width: 100%;
+    }
+    .car{
+        width: fit-content;
+        
+    }
+    .Right {
+    left: 5%;
+    }
+    #Entry{
+     width: 150%;
+    }
+    
+    
+    
+    }
+    .D0GS{
+        width: 10%;
+    
+    }
+ 
+
+    
+    
+    .includes {
+        border: 2px  lightgreen;
+        background-color: aliceblue;
+        font-size: 20px;
+        font-weight: lighter;
+        background-color: lightgreen;
+        box-shadow: 0 8px 10px lightgreen;
+        padding-left: 15px;
+        margin: 35px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        word-spacing: 5px;
+        width: 50%;
+    }
+  .bit{
+    width: 90%;
+    padding: 5px;
+    margin-top: 50px;
+  }
+
+  .Right{
+left: 50%;
+margin-left: -10%;
+
+
+
+  }
+    
+
+    .ug {
+        background-size: 100%;
+        width: 100%;
+        height: 350%;
+        margin-bottom: -100%;
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    h1 { top: auto;}
+
+    .Kidepo {
+        padding: 20px;
+        margin: 0 auto;
+        height: 580px;
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+    
+    }
+
+    
+    
+    .img {
+        background-repeat: no-repeat;
+    }
+ 
+   /* .form {
+        width: 100%;
+    }*/
+    
+    #gorilla {
+        font-size: small;
+        
+        padding-top: 10px;
+    }
+    .car {
+        width: 100%;
+
+    }
+    body{
+        width: 100%;
+    }
+    .best {
+        font-size: 30px;
+    
+    }
+    .big {
+        background-repeat: no-repeat;
+        margin-bottom: -200px;
+    }
+    
+
+@media (min-width :1000px) {
+    .uga {
+        background-size: 100%;
+        width: 100%;
+        height: 50%;
+        margin-bottom: 0%;
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+}
+    
+
+    .out {
+        display: block;
+    }
+    .video {
+        width: 50%;
+        height: 50%;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+.big {
+    margin-bottom: 10px;
+    background-image: url(murchison-falls-1229x820x184x0x860x820x1656053925.webp);
+    width: 100% auto;
+    background-size: cover;
+    object-fit: cover;
+    height: 400px;
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.falls {
+    display: flex;
+    flex-direction:row
+}
+.DOGS{
+    margin-top: 50px;
+box-shadow: 0 4px 8px;
+padding-left: 30px;
+margin-left: 30px;
+margin-right: 30px;
+border-radius: 10px;
+height: 400PX;
+width: 350px;
+transition: transform 10s ease;
+}
+.DOGS:hover {
+    transform: scale(1.2);
+}
+.dogs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0px;
+    margin-left: 25%;
+}
+.D0GS img {
+    width: 700px;
+}
+.ddd {
+    width: 600x;
+    padding-left: -10px;
+
+}
+.MBURO{
+    background-image: url(giraffe.jpg);
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    color: white;
+}
+ #demo {
+    display: none;
+ }
+
+ #gorilla {
+    background: url(WATER\ FALLS\ MUR.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    word-spacing: 20px;
+    text-align: center;
+    color: white
+ }
+.pic {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+
+.from {
+    background-color:pink;
+    border: 2px solid lightblue;
+    width: 15rem;
+    
+    border-radius: 10px;
+    align-content: center;
+
+    margin: 20px;
+}
+.name {
+    margin: 20px;
+}
+.decide,.desired {
+    background-color: peru;
+    margin: 20px;
+}
+.submit {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    color: green;
+}
+#kidepo {
+    display: none;
+}
+#sss {
+    display: none;
+background-color: aliceblue;
+border: 1px;
+}
+.davis {
+    border: 1px lightcyan;
+
+    width: 400px;
+    border-radius: 5px;
+} 
+  .Kidepo {
+    background-image: url(Kidepo.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+    height: 500PX;
+    margin-top: 10PX;
+    margin-bottom: 50px;
+  }  
+  .best {
+    background-image: url(visit.jp.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 600PX;
+    padding-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+  .blog {
+    font-size: 45px;
+    color: blue;
+    text-align: center;
+  }
+  .go {
+    color: rgb(240, 9, 9);
+    font-style: italic;
+  }
+  .Africa {
+    color: green;
+  }
+  .par {
+    margin-left: 50px;
+  }
+  p  {
+    margin: 20px;
+  }
+  .do {
+    background-image: url(WATER\ FALLS\ MUR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 500PX;
+padding-top: 100PX;
+  }
+  .content {
+    display: none;
+}
+.content.show{
+    display: block;
+}
+.btn {
+    display: none;
+}
+.btn.show {
+    display: block;
+    height: 500PX;
+}
+.can {
+    display: none;
+}
+.can.show {display: block;}
+.cow { display: none;}
+.cow.show {
+     display: block;
+     height: 500px;
+    }
+.com {display: none;}
+.com.show {
+    display: block;
+height: 500px;
+}
+.but {display: none;}
+.but.show {
+    display: block;
+height: 500PX;}
+.sev {display: none;}
+.sev.show {
+    display: block;
+    height: 500PX;
+}
+.eight {display: none;}
+.eight.show {
+    display: block;
+    height: 500PX;
+}
+.nine {display: none;}
+.nine.show {display: block;
+height: 500PX;}
+.ten {display: none;}
+.ten.show {display: block;
+height: 500PX;}
+
+.drop {
+color: aqua;}
+#ONE {
+    width: 500PX;
+    height: 60PX;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    border: 1PX green solid;
+    border-radius: 5PX;
+}
+#one {
+    width: 500PX;
+    height: 75PX;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    border: 1PX green solid;
+    border-radius: 5PX;
+}
+#TWO {
+    width: 500PX;
+    height: 75PX;
+    overflow: hidden;
+    border: 1PX gray solid;
+    border-radius: 5PX; 
+    margin: 0 auto;
+    position: relative;
+}
+#two {
+    width: 500PX;
+    height: 70PX;
+    overflow: hidden;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    margin: 0 auto;
+    position: relative;
+}
+#THREE {
+    width: 500PX;
+    height: 70PX;
+    overflow: hidden;
+    border: 1px green solid;
+    border-radius: 5PX;
+    margin: 0 auto;
+    position: relative;
+}
+#FOUR {
+    height: 75PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+position: relative;
+}
+
+#four {
+    height: 70PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+    position: relative;
+}
+#five {
+    height: 70PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1Px green solid;
+    border-radius: 5PX;
+    overflow: hidden;
+    position: relative;
+}
+#six {
+    height: 75PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1Px gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+    position: relative; 
+}
+.ex1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    size: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+
+}
+.davis {
+    color: aqua;
+}
+#SEVEN {
+    height: 75px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px green solid;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+}
+#EIGHT {
+    height: 80PX;
+    overflow: hidden;
+    border: 1PX greenyellow solid;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+}
+#NINE {
+    height:60PX;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px green solid;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+}
+#TEN{
+    height: 60px;
+    overflow: hidden;
+    margin:0 auto;
+    border: 1px greenyellow solid;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+}
+#ON {
+    height: 80PX;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1PX green solid;
+    border-radius: 5PX;
+    width: 500PX;
+    position: relative;
+}
+
+#TW {
+    height: 80PX;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1PX green solid;
+    border-radius: 5PX;
+    width: 500PX;
+    position: relative;}
+
+    #THR {
+        height: 80PX;
+        overflow: hidden;
+        margin: 0 auto;
+        border: 1PX green solid;
+        border-radius: 5PX;
+        width: 500PX;
+        position: relative;
+    }
+    
+#hen {
+    height: 75PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+position: relative;
+}
+
+#cat {
+    height: 75PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+position: relative;
+}
+
+#pig{
+    height: 75PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+position: relative;
+}
+
+#duck{
+    height: 75PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+position: relative;
+}
+.BAG {
+    border: 1PX gray solid;
+    box-shadow: 0 4PX 8PX;
+    width: 100PX;
+    border-radius: 5px;
+    padding: 10PX;
+transition: transform 5s ease;
+}
+.BAG:hover {
+    transform: scale(1.2);
+    background-color: blue;
+}
+
+
+
+
+
+
+
+#dog {
+    height: 75PX;
+    width: 500px;
+    margin: 0 auto;
+    border: 1PX gray solid;
+    border-radius: 5PX;
+    overflow: hidden;
+position: relative;
+}
+
+.sixty {
+    font-size: 35px;
+    font-style: italic;
+    color: green;
+    margin-left: 40px;
+ }
+
+.pan {
+    margin-top: -35px;
+}
+ 
+.left {
+    cursor: pointer;
+    position: sticky;
+    left: 0;
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 40%;
+    border-radius: 50%;
+    
+}
+.Right {
+    cursor: pointer;
+   border-radius: 50%;
+    font-size: 30px;
+    color: green;
+    left: 80%;
+    position: absolute;
+    top: 40%;
+}
+.Right:hover {
+    color: red;
+}
+#span{
+    width: 70px;
+    height: 60px;
+    color: lightblue;
+}
+.png {
+    width: 70px;
+    height: 60px;
+    color: lightblue;
+}
+#pan{
+
+    color: lightblue;
+    width: 60px;
+    height: 60px;
+}
+.many {
+    position: relative;
+
+    margin: 50px;
+    width: 100%;
+    overflow: hidden;
+    }
+    .dot {
+        display: flex;
+        width: 75%;
+        transition: transform 5s ease-in-out;
+
+    }
+    .arrows UL {
+        display: flex;
+        left: 40%;
+        position: relative;
+    }
+    .arrows UL li{
+        height: 20px;
+        width: 20px;
+        border: 1px solid #333;
+        list-style: none;
+        margin: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+    
+    .arrows uL li.selected {
+        background-color: blueviolet;
+    }
+    /*@media only screen and (max-width) {
+    body{
+        width: 100%;
+    }
+    .car{
+        width: 30%;
+    }
+
+    }*/
+    .fort {
+        height: 500px;
+        border: #333 solid;
+        padding: 10px;
+        width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px;
+    }
+    .trip { background-image: url(gorilla-trekking-700x450.jpg);
+        height: 400px; width: 100% auto; object-fit: cover;
+        background-size: 100%;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .book button {
+        color: rgb(23, 23, 235) ;
+        height: 3rem;
+        width: 10rem;
+        border-radius: 3rem;
+        box-shadow: 0px 4px 6px ;
+        background-color: aqua;
+    }
+    #book {
+        display: none;
+    }
+  .form button {
+    color: blue;
+    height: 3rem;
+    margin: 20px;
+    width: 7rem;
+    border-radius: 3rem;
+    border: 2rem;
+    box-shadow: 0rem 4rem 6rem;
+    background-color: rgb(52, 212, 159);
+  }
+  form button {
+    color: blue;
+    height: 3rem;
+    margin: 20px;
+    width: 7rem;
+    border-radius: 3rem;
+    border: 2rem;
+    box-shadow: 0rem 4rem 6rem;
+    background-color: ;
+  }
+  form {
+    background-color:pink;
+    border: 2px solid lightblue;
+    width: 15rem;
+    border-radius: 10px;
+    padding: 20px;
+    align-content: center;
+    padding-left: 20px;
+    margin: 20px;
+}
