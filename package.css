@@ -3,6 +3,8 @@ body {background-color:rgb(239, 245, 247);
 width: 150% auto;
 flex-wrap: wrap;
 }
+
+
 .main {
     background-image: url(davis.jpg);
     background-size: cover;
