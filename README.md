@@ -1,2 +1,2 @@
-We help people to travel, tour East Africa. We help tour to plan and arrange their tours  and 
-Sasfaris in East Africa specificall Uganda ( The pearl of Africa), 
+
+Welcome to Acacia Safari Uganda About Apes africa safari tour and Travel Uganda, Apes africa safari tour and Travel Uganda,is one of the indigenous Safari Companies in East Africa offering the most thrilling and unforgettable East Africa safari Experience; Our itineraries take you through Uganda, Kenya, Tanzania and Rwanda and our safaris are specially designed with care and attention to suit your needs, Budget and time. Mgahinga gorilla park Whether your interests is Uganda safari including Gorilla tours and safaris, Uganda Wildlife safari, nature /guided walks, trekking holidays, Rwenzori Climbing, Primate Safari Holidays, Bird watching Trips, Cultural encounter safaris, white water Rafting, Honeymoon packages, We are happy and always here to assist you in any way. We bring"
