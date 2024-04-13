@@ -351,7 +351,7 @@ p {font-size: 25px;}
     }
     #TWO p, #THREE p, #FOUR p, #FIVE p, #SIX p, #SEVEN p, #EIGHT p, #NINE p, #TEN p, #ON p, #TW p, #THR p, #hen p, #cat p, #pig p, #duck p, #dog p {
         font-size: 20px;
-        width: 25rem
+        width: 25rem;
     }
    #ONE{
             width: 20rem;
@@ -359,19 +359,19 @@ p {font-size: 25px;}
     .wonder p, .based p {
         font-size: 20px;
     }
-    .form {
-        width: 10%;
+    div.form {
+        width: 70%;
     }
     .link {display: none;}
     .from{width: 50%;
-        width: 50px;
+        width: 60px;
         background-color: rgb(250, 147, 11);
     }
     .info{
         width: 15rem;
     }
     body{
-        width: 100%;
+        width: 100% fit-content;
     }
     .dogs{
 margin-left: -10%;
