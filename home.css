@@ -38,7 +38,10 @@ padding-bottom: 20px;}
 margin: 20px;
         border: 1PX;
         box-shadow: 0 4PX 8PX;
-        background-color: orange;
+        background-color: green;
+        width: 18rem;
+        padding: 3px;
+        border-radius: 1rem;
     }
     #view {
         text-align: center;
