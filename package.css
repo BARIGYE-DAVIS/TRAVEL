@@ -1,6 +1,5 @@
 
 body {background-color:rgb(239, 245, 247);
-width: 150% auto;
 flex-wrap: wrap;
 }
 
@@ -21,11 +20,11 @@ flex-wrap: wrap;
     object-fit: cover;
 margin-top: 20px;
 padding-top: 30px;}
-h1 {color: rgb(255, 0, 76);
+h1 {color: rgb(153, 11, 53);
 text-align: center;
 font-style: italic;
 font-size: 50px;}
-h2 {color: red;
+h2 {color: rgb(68, 3, 3);
 text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 40px;}
@@ -198,7 +197,7 @@ position: relative;
     
     
     cursor: pointer;
-    animation: scroll 136s linear infinite;
+    animation: scroll 26s linear infinite;
 }
 @keyframes scroll {
    
