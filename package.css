@@ -1,6 +1,7 @@
 
 body {background-color:rgb(239, 245, 247);
 flex-wrap: wrap;
+
 }
 
 
@@ -55,9 +56,10 @@ justify-content: space-around;}
 nav {
     margin-top: -20px;
     border-bottom: 5px grey solid;
-width: 100%;
-border-radius: 10px;
-height: 70px;
+width: 100vw;
+border-radius: 1rem;
+height: 4rem;
+z-index: 100;
 background-color: rgb(52, 212, 159);
 position: sticky;
 top: 0;
@@ -81,7 +83,8 @@ nav ul li a:hover {
 }
  .caption2 {font-size: 20px;
 color: red;
-margin-left: 35px;} 
+padding: 5px;
+} 
 
 .radius {border-radius: 10% ;}
 .GET {background-color:rgb(24, 24, 36);
@@ -89,10 +92,8 @@ font-size: 10px;
 margin-top: 50px;
 color: whitesmoke;
 padding: 20px;
-width: 100%;
+width: 100vw;
 font-weight: normal;
-margin-left: -25px;
-margin-right: -30px;
 word-spacing: 5px;
 }
 .DOG {margin-top: 50px;
@@ -101,7 +102,7 @@ padding-left: 30px;
 margin: 15px;
 border-radius: 10px;
 position: relative;
-width: 450PX;
+width: 450px;
 height: 400px;
 transition: transform 10S ease;
 
@@ -126,14 +127,14 @@ transition: transform 10S ease;
 
 }
 .email{
-background-color: blue;
+background-color: rgb(38, 0, 255);
 border-radius: 3rem;
 padding: 10px;
 height: 2rem;
-margin: 10px;
 width: 15rem;
+z-index: 100;
 position: fixed;
-left: 30rem;
+left: -1rem;
 top: 20rem;
 }
 .email img {
@@ -154,7 +155,7 @@ background-color: green;
 border-radius: 2rem;
 padding: 0.5rem;
 position: fixed;
-top: 100px;
+top: 25rem;
 }
 .whatsapp :hover{
     transform: translate(2);
@@ -165,8 +166,9 @@ a {
     display: flex;
    transition: transform 5s ease-in-out;
     flex-wrap: wrap;
-margin-left: 100px;
+margin-left: 10px;
 position: relative;
+width: 80vw;
 }
 .icon {
 position: relative;
@@ -180,13 +182,15 @@ position: relative;
     position: relative;
     flex-direction: row;
      margin: 50px 20px;
-    width: 1300px;
+     overflow: hidden;
+    width: 100vw;
 }
 .DOG.active {
     opacity: 1;
 }
 .dog[data-animated=true] {
-    overflow: hidden;
+   overflow: hidden;
+   width: 80vw;
    /* -webkit-mask: linear-gradient(transparent,white);
     mask: linear-gradient(transparent,white);*/
     margin: 50px 20px;
@@ -214,10 +218,10 @@ position: relative;
     margin-right: 30px;
     border-radius: 10px;
     position: relative;
-    width: 500PX;
+    width: 70vw;
     height: 500px;}
    
-.quick {color: yellow;
+.quick {color: rgb(223, 223, 214);
 font-size: 35px;
 font-style: italic;}
 .books {
@@ -239,9 +243,7 @@ width: 80%;
     padding-top: 50px;
     
 }
-body { font-size: 20px;
-word-spacing: 5px;
-padding: 10px;}
+
 #out {
     display: flex;
     flex-direction: row;
@@ -293,7 +295,7 @@ img {
     margin: 5px;
 }
 html {
-    justify-content: center;
+ width: 100vw;
 
 
 }
@@ -346,9 +348,9 @@ p {font-size: 25px;}
     .home {display: block;}
     .menu {display: table-colum;}
     #Entry {display: block;
-    width: 1000px;}
+    width: 100vw;}
     #MTN {display: block;
-    width: 300%;}
+    width: 30%;}
     .wonder, .private, .DAY{
         font-size: 20px;
     }
@@ -356,8 +358,8 @@ p {font-size: 25px;}
         font-size: 20px;
         width: 25rem;
     }
-   #ONE{
-            width: 20rem;
+   #ON {
+            width: 10rem;
     }
     .wonder p, .based p {
         font-size: 20px;
@@ -366,21 +368,18 @@ p {font-size: 25px;}
         width: 70%;
     }
     .link {display: none;}
-    .from{width: 50%;
+    .from{width: 50vw;
         width: 60px;
         background-color: rgb(250, 147, 11);
     }
     .info{
         width: 15rem;
     }
-    body{
-        width: 100% fit-content;
-    }
     .dogs{
 margin-left: -10%;
     }
     .dog {
-        width: 100%;
+        width: 50vw;
     }
     .car{
         width: fit-content;
@@ -390,7 +389,7 @@ margin-left: -10%;
     left: 5%;
     }
     #Entry{
-     width: 150%;
+     width: 70vw;
     }
     
     
@@ -412,7 +411,6 @@ margin-left: -10%;
         background-color: lightgreen;
         box-shadow: 0 8px 10px lightgreen;
         padding-left: 15px;
-        margin: 35px;
         border-radius: 10px;
         margin-bottom: 40px;
         word-spacing: 5px;
@@ -470,9 +468,6 @@ margin-left: -10%;
     .car {
         width: 100%;
 
-    }
-    body{
-        width: 100%;
     }
     .best {
         font-size: 30px;
@@ -663,7 +658,7 @@ border: 1px;
     margin-left: 50px;
   }
   p  {
-    margin: 20px;
+   padding: 0rem;
   }
   .do {
     background-image: url(WATER\ FALLS\ MUR.jpg);
@@ -723,7 +718,7 @@ height: 500PX;}
 .drop {
 color: aqua;}
 #ONE {
-    width: 500PX;
+    width: 50PX;
     height: 60PX;
     overflow: hidden;
     position: relative;
@@ -750,7 +745,8 @@ color: aqua;}
     position: relative;
 }
 #two {
-    width: 500PX;
+    width: 25rem;
+    padding: 1ic;
     height: 70PX;
     overflow: hidden;
     border: 1PX gray solid;
@@ -759,7 +755,8 @@ color: aqua;}
     position: relative;
 }
 #THREE {
-    width: 500PX;
+    width: 25rem;
+    padding: 1ic;
     height: 70PX;
     overflow: hidden;
     border: 1px green solid;
@@ -779,7 +776,8 @@ position: relative;
 
 #four {
     height: 70PX;
-    width: 500px;
+    width: 25rem;
+    padding: 1ic;
     margin: 0 auto;
     border: 1PX gray solid;
     border-radius: 5PX;
@@ -788,7 +786,8 @@ position: relative;
 }
 #five {
     height: 70PX;
-    width: 500px;
+    width: 25rem;
+    padding: 1ic;
     margin: 0 auto;
     border: 1Px green solid;
     border-radius: 5PX;
@@ -797,7 +796,8 @@ position: relative;
 }
 #six {
     height: 75PX;
-    width: 500px;
+    width: 25rem;
+    padding: 1ic;
     margin: 0 auto;
     border: 1Px gray solid;
     border-radius: 5PX;
@@ -811,7 +811,6 @@ position: relative;
     size: 10px;
     width: 30px;
     height: 30px;
-    background-color: green;
 
 }
 .davis {
@@ -823,7 +822,8 @@ position: relative;
     margin: 0 auto;
     border: 1px green solid;
     border-radius: 5px;
-    width: 500px;
+    width: 25rem;
+    padding: 1ic;
     position: relative;
 }
 #EIGHT {
@@ -832,7 +832,8 @@ position: relative;
     border: 1PX greenyellow solid;
     margin: 0 auto;
     border-radius: 5px;
-    width: 500px;
+    width: 25rem;
+    padding: 1ic;
     position: relative;
 }
 #NINE {
@@ -841,7 +842,8 @@ position: relative;
     margin: 0 auto;
     border: 1px green solid;
     border-radius: 5px;
-    width: 500px;
+    width: 25rem;
+    padding: 1ic;
     position: relative;
 }
 #TEN{
@@ -850,7 +852,8 @@ position: relative;
     margin:0 auto;
     border: 1px greenyellow solid;
     border-radius: 5px;
-    width: 500px;
+    width: 25rem;
+    padding: 1ic;
     position: relative;
 }
 #ON {
@@ -859,7 +862,8 @@ position: relative;
     margin: 0 auto;
     border: 1PX green solid;
     border-radius: 5PX;
-    width: 500PX;
+    width: 25rem;
+    padding: 1ic;
     position: relative;
 }
 
@@ -869,7 +873,8 @@ position: relative;
     margin: 0 auto;
     border: 1PX green solid;
     border-radius: 5PX;
-    width: 500PX;
+    width: 25rem;
+    padding: 1ic;
     position: relative;}
 
     #THR {
@@ -878,7 +883,8 @@ position: relative;
         margin: 0 auto;
         border: 1PX green solid;
         border-radius: 5PX;
-        width: 500PX;
+        width: 25rem;
+        padding: 1ic;
         position: relative;
     }
     
