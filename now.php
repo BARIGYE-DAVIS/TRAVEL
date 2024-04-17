@@ -32,14 +32,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Adjust data types if necessary (e.g., "isi" for integer days)
   if (is_numeric($days)) {
-    $data_types = "issi";  // String, String, Integer, String
+    $data_types = "ssss";  // String, String, Integer, String
   }
 
   $stmt->bind_param($data_types, $name, $email, $days, $date);
 
   // Execute the statement with error handling
   if ($stmt->execute() === true) {
-    echo "Request sent, thank you!";
+    echo "Request sent successfully!";
   } else {
     echo "Error: " . $stmt->error;
   }
