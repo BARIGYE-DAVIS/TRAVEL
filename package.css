@@ -756,7 +756,7 @@ color: aqua;}
 #two {
     width: 25rem;
     padding: 1ic;
-    height: 70PX;
+    height: 3rem;
     overflow: hidden;
     border: 1PX gray solid;
     border-radius: 5PX;
@@ -867,7 +867,7 @@ position: relative;
     position: relative;
 }
 #ON {
-    height: 80PX;
+    height: 4rem;
     overflow: hidden;
     margin: 0 auto;
     border: 1PX green solid;
@@ -899,7 +899,7 @@ position: relative;
     }
     
 #hen {
-    height: 75PX;
+    height: 3rem;
     width: 25rem;
     padding: 1ic;
     margin: 0 auto;

@@ -45,16 +45,16 @@ function display() {
     if (!isExpanded) {
         one.style.height = "900px";
         boy.style.transform = "rotate(-180deg)";
-        two.style.height = "75px"
-        three.style.height = "75px";
-        four.style.height = "75px";
-        five.style.height = "75px";
-        six.style.height = "75px";
-        seven.style.height = "75px";
-        eight.style.height = "80px";
-        nine.style.height = "75px";
-        ten.style.height = "75px";
-        elven.style.height = "75px";
+        two.style.height = "3rem";
+        three.style.height = "4rem";
+        four.style.height = "4rem";
+        five.style.height = "4rem";
+        six.style.height = "4rem";
+        seven.style.height = "4rem;";
+        eight.style.height = "4rem";
+        nine.style.height = "4rem";
+        ten.style.height = "4rem";
+        elven.style.height = "4rem";
         twelve.style.height = "75px";
         thirteen.style.height = "70px";
         fourteen.style.height = "70px";
@@ -78,28 +78,28 @@ function displayALLTwo() {
     if (!isExpanded) {
         two.style.height = "800px";
         boy1.style.transform = "rotate(-180deg)";
-        one.style.height = "70px"
-        three.style.height = "70px";
-        four.style.height = "70px";
-        five.style.height = "70px";
-        seven.style.height = "75px";
-        six.style.height = "75px";
-        eight.style.height = "80px";
-        ten.style.height = "75px";
-        nine.style.height = "75px";
-        elven.style.height = "75px";
-        twelve.style.height = "75px";
-        thirteen.style.height = "70px";
-        fourteen.style.height = "70px";
-        fifteen.style.height = "60px";
-        sixteen.style.height = "70px";
-        seventeen.style.height = "70px";
-        eighteen.style.height = "80px";
+        one.style.height = "3rem";
+        three.style.height = "3rem";
+        four.style.height = "3rem";
+        five.style.height = "3rem";
+        seven.style.height = "4rem";
+        six.style.height = "4rem";
+        eight.style.height = "4rem";
+        ten.style.height = "4rem";
+        nine.style.height = "4rem";
+        elven.style.height = "4rem";
+        twelve.style.height = "4rem";
+        thirteen.style.height = "3rem";
+        fourteen.style.height = "3rem";
+        fifteen.style.height = "3rem";
+        sixteen.style.height = "3rem";
+        seventeen.style.height = "3rem";
+        eighteen.style.height = "4rem";
         isExpanded = true;
     } else {
-        two.style.height = "70px"
+        two.style.height = "3rem"
         boy1.style.transform = "rotate(0deg)";
-        three.style.height ="70px";
+        three.style.height ="3rem";
 
         isExpanded = false;
     }
@@ -111,28 +111,28 @@ function displayALLThree() {
     if (!isExpanded) {
         three.style.height = "600px";
         boy2.style.transform = "rotate(-180deg)";
-        two.style.height = "70px";
-        one.style.height = "75px"
-        four.style.height = "70px";
-        five.style.height = "70px";
-        seven.style.height = "75px";
-        six.style.height = "75px";
-        eight.style.height = "80px";
-        ten.style.height = "75px";
-        nine.style.height = "75px";
-        elven.style.height = "75px";
-        twelve.style.height = "75px";
-        thirteen.style.height = "70px";
-        fourteen.style.height = "70px";
-        fifteen.style.height = "60px";
-        sixteen.style.height = "70px";
-        seventeen.style.height = "70px";
-        eighteen.style.height = "80px";
+        two.style.height = "3rem";
+        one.style.height = "4rem";
+        four.style.height = "3rem";
+        five.style.height = "3rem";
+        seven.style.height = "4rem";
+        six.style.height = "4rem";
+        eight.style.height = "4rem";
+        ten.style.height = "4rem";
+        nine.style.height = "4rem";
+        elven.style.height = "4rem";
+        twelve.style.height = "4rem";
+        thirteen.style.height = "3rem";
+        fourteen.style.height = "3rem";
+        fifteen.style.height = "3rem";
+        sixteen.style.height = "3rem";
+        seventeen.style.height = "3rem";
+        eighteen.style.height = "4rem";
         isExpanded = true;
     } else {
-        three.style.height = "70px";
+        three.style.height = "3rem";
         boy2.style.transform = "rotate(0deg)";
-        four.style.height = "70px";
+        four.style.height = "3rem";
         isExpanded = false;
     }
 }
@@ -144,16 +144,16 @@ function displayALLFour() {
     if (!isExpanded) {
         four.style.height = "600px";
         boy3.style.transform = "rotate(-180deg)";
-        one.style.height = "75px";
-        two.style.height = "70px";
-        three.style.height = "70px";
-        five.style.height = "75px";
-        six.style.height = "75px";
-        eight.style.height = "75px";
-        nine.style.height = "75px";
-        ten.style.height = "75px";
-        seven.style.height = "75px";
-        elven.style.height = "75px";
+        one.style.height = "4remx";
+        two.style.height = "4rem";
+        three.style.height = "3rem";
+        five.style.height = "4rem";
+        six.style.height = "4rem";
+        eight.style.height = "4rem";
+        nine.style.height = "4rem";
+        ten.style.height = "4rem";
+        seven.style.height = "4rem";
+        elven.style.height = "4rem";
         twelve.style.height = "75px";
         thirteen.style.height = "70px";
         fourteen.style.height = "70px";
@@ -623,4 +623,4 @@ function displayALLEighteen() {
         isExpanded = false;
     }
 }
-two.addEventListener('click', displayALLTwo);
+two.addEventListener('click', displayALLEighteen);
