@@ -350,10 +350,16 @@ p {font-size: 25px;}
     #Entry {display: block;
     width: 100vw;}
     #MTN {display: block;
-    width: 30%;}
+    width: 100vw;}
     .wonder, .private, .DAY{
         font-size: 20px;
     }
+   #Entry .includes {
+        font-size: 20px;
+    }
+    
+
+
     #TWO p, #THREE p, #FOUR p, #FIVE p, #SIX p, #SEVEN p, #EIGHT p, #NINE p, #TEN p, #ON p, #TW p, #THR p, #hen p, #cat p, #pig p, #duck p, #dog p {
         font-size: 20px;
         width: 25rem;
@@ -388,9 +394,6 @@ margin-left: -10%;
     .Right {
     left: 5%;
     }
-    #Entry{
-     width: 70vw;
-    }
     
     
     
@@ -406,15 +409,17 @@ margin-left: -10%;
     .includes {
         border: 2px  lightgreen;
         background-color: aliceblue;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: lighter;
-        background-color: lightgreen;
+        margin-top: 1rem;
+        background-color: rgb(119, 149, 233);
         box-shadow: 0 8px 10px lightgreen;
         padding-left: 15px;
         border-radius: 10px;
+        color: #e4d2d2;
         margin-bottom: 40px;
         word-spacing: 5px;
-        width: 50%;
+        width: 70vw;
     }
   .bit{
     width: 90%;
