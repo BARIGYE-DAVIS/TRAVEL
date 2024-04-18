@@ -766,7 +766,7 @@ color: aqua;}
 #THREE {
     width: 25rem;
     padding: 1ic;
-    height: 70PX;
+    height: 3rem;
     overflow: hidden;
     border: 1px green solid;
     border-radius: 5PX;
@@ -774,7 +774,7 @@ color: aqua;}
     position: relative;
 }
 #FOUR {
-    height: 75PX;
+    height: 4rem;
     width: 25rem;
     padding: 1ic;
     margin: 0 auto;
@@ -785,7 +785,7 @@ position: relative;
 }
 
 #four {
-    height: 70PX;
+    height: 4rem;
     width: 25rem;
     padding: 1ic;
     margin: 0 auto;
@@ -795,7 +795,7 @@ position: relative;
     position: relative;
 }
 #five {
-    height: 70PX;
+    height: 3rem;
     width: 25rem;
     padding: 1ic;
     margin: 0 auto;
@@ -827,7 +827,7 @@ position: relative;
     color: aqua;
 }
 #SEVEN {
-    height: 75px;
+    height: 3rem;
     overflow: hidden;
     margin: 0 auto;
     border: 1px green solid;
@@ -837,7 +837,7 @@ position: relative;
     position: relative;
 }
 #EIGHT {
-    height: 80PX;
+    height: 4rem;
     overflow: hidden;
     border: 1PX greenyellow solid;
     margin: 0 auto;
@@ -847,7 +847,7 @@ position: relative;
     position: relative;
 }
 #NINE {
-    height:60PX;
+    height:3rem;
     overflow: hidden;
     margin: 0 auto;
     border: 1px green solid;
@@ -857,7 +857,7 @@ position: relative;
     position: relative;
 }
 #TEN{
-    height: 60px;
+    height: 3rem;
     overflow: hidden;
     margin:0 auto;
     border: 1px greenyellow solid;
@@ -878,7 +878,7 @@ position: relative;
 }
 
 #TW {
-    height: 80PX;
+    height: 3rem;
     overflow: hidden;
     margin: 0 auto;
     border: 1PX green solid;
@@ -888,7 +888,7 @@ position: relative;
     position: relative;}
 
     #THR {
-        height: 80PX;
+        height: 4rem;
         overflow: hidden;
         margin: 0 auto;
         border: 1PX green solid;
