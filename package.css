@@ -354,10 +354,10 @@ p {font-size: 25px;}
     .wonder, .private, .DAY{
         font-size: 20px;
     }
-   #Entry .includes {
+ .excludes {
         font-size: 20px;
     }
-    
+
 
 
     #TWO p, #THREE p, #FOUR p, #FIVE p, #SIX p, #SEVEN p, #EIGHT p, #NINE p, #TEN p, #ON p, #TW p, #THR p, #hen p, #cat p, #pig p, #duck p, #dog p {
@@ -409,8 +409,9 @@ margin-left: -10%;
     .includes {
         border: 2px  lightgreen;
         background-color: aliceblue;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: lighter;
+        margin-left: 2rem;
         margin-top: 1rem;
         background-color: rgb(119, 149, 233);
         box-shadow: 0 8px 10px lightgreen;
