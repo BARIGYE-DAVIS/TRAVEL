@@ -726,7 +726,7 @@ color: aqua;}
 #ONE {
     width: 25rem;
     padding: 1ic;
-    height: 60PX;
+    height: 3rem;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
@@ -805,7 +805,7 @@ position: relative;
     position: relative;
 }
 #six {
-    height: 75PX;
+    height: 3rem;   
     width: 25rem;
     padding: 1ic;
     margin: 0 auto;
