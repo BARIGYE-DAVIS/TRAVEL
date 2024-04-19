@@ -1,5 +1,7 @@
 
 body {background-color:rgb(239, 245, 247);
+    margin: 0;
+    padding: 0;
 flex-wrap: wrap;
 
 }
@@ -50,7 +52,7 @@ position: sticky;
 top: 50px;
 margin-bottom: 1opx;
 flex-direction: row;
-justify-content: space-around;}
+justify-content: space-between;}
 .caption1 {font-size: 15px;
 }
 nav {
@@ -60,7 +62,7 @@ width: 100vw;
 border-radius: 1rem;
 height: 4rem;
 z-index: 100;
-background-color: rgb(52, 212, 159);
+background-color: rgb(20, 20, 20);
 position: sticky;
 top: 0;
 }
