@@ -85,6 +85,23 @@ background-color: #333;
     text-decoration: none;
     color: white;
 }
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
 .nav-links ul li a:hover {
     color:#0099cc;
 }
@@ -363,7 +380,31 @@ p {font-size: 25px;}
     width: 100vw;}
     #MTN {display: block;
     width: 100vw;}
-   
+   .toggle-button {
+    display: flex;
+}
+.nav-links{
+    display: none;
+}
+.nav-bar{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav-links ul {
+    width: 100%;
+
+    flex-direction: column;
+}
+.nav-links li {
+    text-align: center;
+}
+.link li a {
+    padding: .5rem 1rem;
+}
+.nav-links.active {
+    display: flex;
+}
+
     .wonder, .private, .DAY{
         font-size: 20px;
     }
