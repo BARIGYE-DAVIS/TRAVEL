@@ -55,33 +55,43 @@ flex-direction: row;
 justify-content: space-between;}
 .caption1 {font-size: 15px;
 }
-nav {
-    margin-top: -20px;
-    border-bottom: 5px grey solid;
-width: 100vw;
-border-radius: 1rem;
-height: 4rem;
-z-index: 100;
-background-color: rgb(20, 20, 20);
-position: sticky;
-top: 0;
-}
-nav ul {
+
+.nav-bar {
     display: flex;
-    justify-content: space-around
+    align-items: center;
+    color: white;
+    position: sticky;
+top: 0;
+z-index: 100;
+background-color: #333;
 }
-nav ul li {
+.logo {
+    padding: 1rem;
+}
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
     list-style: none;
+
 }
-nav ul li a {
-    display: block;
-    color:white;
-    padding-top: 30px;
+.nav-links ul li {
+    padding: 1rem;
+    align-items: right;
+}
+.nav-links ul li a {
+    justify-content: space-between;
     text-decoration: none;
+    color: white;
 }
-nav ul li a:hover {
-    transform: scale(1.2);
-    color: blue;
+.nav-links ul li a:hover {
+    color:#0099cc;
+}
+ .caption2 {font-size: 20px;
+ }
+.nav-links ul li:hover {
+    color:#18191a;
 }
  .caption2 {font-size: 20px;
 color: red;
@@ -353,9 +363,7 @@ p {font-size: 25px;}
     width: 100vw;}
     #MTN {display: block;
     width: 100vw;}
-    nav {
-        display: none;
-    }
+   
     .wonder, .private, .DAY{
         font-size: 20px;
     }
