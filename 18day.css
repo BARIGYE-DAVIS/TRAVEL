@@ -136,17 +136,7 @@ justify-content: space-between;}
     padding-top: 15px;
     margin-left: 20%;
 }
-.info {
-    background-color: azure;
-    border: 1px solid greenyellow;
-    font-size: 20px;
-    box-shadow: 0px 6px 8px greenyellow;
-    word-spacing: 5px;
-    padding-left: 15px;
-    border-radius: 10px;
-    width: 20;
-    margin: 15px;
-}
+
 .pac {
     color: aquamarine;
     font-size: 30px;
