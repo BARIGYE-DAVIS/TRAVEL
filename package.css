@@ -235,13 +235,12 @@ position: relative;
 }
 .dog[data-animated=true] {
    overflow: hidden;
-   width: 80vw;
+   width: 90vw;
    /* -webkit-mask: linear-gradient(transparent,white);
     mask: linear-gradient(transparent,white);*/
-    margin: 50px 20px;
+
 }
 .dog[data-animated=true] .car {
-    margin: 20px 50px;
     flex-wrap: nowrap;
     
     
@@ -325,6 +324,7 @@ margin-left: 50px;
     font-size: 25px;
     font-style: italic;
     color: green;
+    padding: 1rem 2rem;
     background-color: beige;
     padding-bottom: 20px;
 }
@@ -465,7 +465,9 @@ margin-left: -10%;
     .Right {
     left: 5%;
     }
-    
+    .list li {
+        font-size: 20px;
+    }
     
     
     }
@@ -1217,4 +1219,9 @@ position: relative;
     width: 50vw;
     padding: .5rem 1rem;
 
+}
+.list {
+    color: rgb(7, 174, 240);
+    font-size: 25px;
+    justify-content: center;
 }
