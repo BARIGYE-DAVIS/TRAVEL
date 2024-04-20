@@ -468,7 +468,8 @@ margin-left: -10%;
     .list li {
         font-size: 20px;
     }
-    
+    .lis p {
+        font-size: 20px;
     
     }
     .D0GS{
@@ -476,7 +477,7 @@ margin-left: -10%;
     
     }
  
-
+}
     
     
     .includes {
@@ -1224,4 +1225,10 @@ position: relative;
     color: rgb(7, 174, 240);
     font-size: 25px;
     justify-content: center;
+}
+.lis {
+    color: rgb(7, 174, 240);
+    font-size: 25px;
+    justify-content: center;
+    padding: 1rem 2rem;
 }
