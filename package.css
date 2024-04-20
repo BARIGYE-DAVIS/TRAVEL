@@ -5,7 +5,14 @@ body {background-color:rgb(239, 245, 247);
 flex-wrap: wrap;
 
 }
-
+.based {
+    padding: .5rem 1rem;
+}
+.form p {
+    font-size: 25px;
+    margin: 20px;
+    color: rgb(1, 247, 83);
+}
 .margin {
     margin: 1rem;
     padding: 0;
@@ -391,6 +398,9 @@ p {font-size: 25px;}
     width: 100vw;}
    .toggle-button {
     display: flex;
+}
+.margin p {
+    font-size: 20px;
 }
 .nav-links{
     display: none;
