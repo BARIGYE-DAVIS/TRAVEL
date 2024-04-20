@@ -444,7 +444,7 @@ p {font-size: 25px;}
         width: 25rem;
     } 
     body {
-        width: 50vw;
+        width: 100vw;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
