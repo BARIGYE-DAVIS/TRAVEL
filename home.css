@@ -5,7 +5,9 @@
     
     }
         .EX {font-weight: bold;font-size: 60px;
-        color: rgb(114, 24, 24);display:flex;justify-content: center;
+        color: rgb(114, 24, 24);
+        display:flex;
+        justify-content: center;
     margin-inline-start: 2PX;}
            .EA {font-weight: bold;
             font-size: 50px; 
@@ -35,7 +37,6 @@ margin: 20px;
     }
     #view {
         text-align: center;
-margin: 30px;
 
     }
     img {

@@ -21,7 +21,7 @@ word-spacing: 5px;
 font-size: 25px;
 border-radius: 15px;
 box-shadow: 0 4px 8px;
-width: 70%;}
+}
 .bbb { color: rgb(158, 189, 189);
 backface-visibility: auto;
 background-color: rgb(34, 33, 33);
@@ -124,7 +124,8 @@ justify-content: space-between;}
     padding-left: 15px;
     border: 2px lightgreen solid;
     box-shadow: 0 8px 10px;
-    margin: 35px;
+    padding: 1rem 2rem;
+    margin: 2rem;
     border-radius: 10px;
     margin-bottom: 40px;
     word-spacing: 5px;
@@ -134,7 +135,6 @@ justify-content: space-between;}
     font-size: 30px;
     color: aqua;
     padding-top: 15px;
-    margin-left: 20%;
 }
 
 .pac {
@@ -185,13 +185,5 @@ er {
     text-align: center;
     padding-top: 50px;
 } 
- @media screen and( max-width : 768px)  {
-    .dog {
-        width: 100%;
-    }
-    img {
-        width: 100%;
-    }
-}
 
 
