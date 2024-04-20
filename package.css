@@ -443,6 +443,13 @@ p {font-size: 25px;}
         font-size: 20px;
         width: 25rem;
     } 
+    body {
+        width: 50vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
    
    #ON {
             width: 10rem;
