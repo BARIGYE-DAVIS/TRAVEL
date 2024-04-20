@@ -625,6 +625,9 @@ transition: transform 10s ease;
     padding-left: -10px;
 
 }
+.wonder {
+    padding: .5rem 1rem;
+}
 .MBURO{
     background-image: url(giraffe.jpg);
     font-size: 35px;
