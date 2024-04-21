@@ -12,6 +12,56 @@ body {background-color:rgb(239, 245, 247);
 flex-wrap: wrap;
 
 }
+.detail{
+    width: 70vw;
+    background-color: rgb(240, 248, 255);
+    padding: 1rem 2rem;
+    align-items: center;
+    margin: 0rem auto;
+    border: 2px solid rgb(95, 43, 5);
+    position: relative;
+ border: 1px solid rgb(152, 251, 152);
+}
+.detail input[type="radio"] {
+
+    display: none;
+}
+.detail label {
+    font-size: 22px;
+    color: #0099cc;
+    padding: .5rem 1rem;
+
+    margin: 1rem;
+    position: relative;
+}
+
+ .detail .more {
+  background-color: rgb(226, 243, 229);
+  color: rgb(83, 5, 102);
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: oblique;
+  height: 0;
+  overflow: hidden;
+ }
+ .detail input[type="radio"]:checked + .more {
+    display: block;
+    padding: .5rem 1rem;
+    height: fit-content;
+ }
+.detail  label span{
+    position: absolute;
+    left: 90%;
+    height: 3rem;
+    width: 3rem;
+    font-size: 4rem;
+    top: -.5rem;
+}
+
+
+.detail input[type="radio"]:checked + label span.ex1 {
+    transform:  rotate(-180deg);
+}  
 .DEN {
     background-color: rgb(0, 255, 255);
     padding: .5rem 1rem;
