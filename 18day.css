@@ -1,5 +1,5 @@
 
-.tri { background-image: url(ELEPHANT.jpg);
+.tri { background-image: url(IMAGES/ELEPHANT.jpg);
 height: 400px; 
 object-fit: cover;
 background-size: cover;
@@ -178,7 +178,7 @@ er {
     color: #ffffff;
 }
 .uga {
-    background-image: url(ELEPHANT.jpg);
+    background-image: url(IMAGES/ELEPHANT.jpg);
     font-size: 40px;
     color: white;
     height: 500px;
