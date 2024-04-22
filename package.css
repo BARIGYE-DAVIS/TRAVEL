@@ -1064,10 +1064,15 @@ position: relative;
     color: rgb(7, 174, 240);
     font-size: 25px;
     justify-content: center;
+    margin: 10px;
+}
+.list li {
+    text-align: center;
 }
 .lis {
     color: rgb(7, 174, 240);
     font-size: 25px;
     justify-content: center;
     padding: 1rem 2rem;
+    
 }
