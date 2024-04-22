@@ -83,7 +83,7 @@ flex-wrap: wrap;
 }
 
 .main {
-    background-image: url(davis.jpg);
+    background-image: url(IMAGES/davis.jpg);
     background-size: cover;
     height: 400px;
     padding-top: 50px;
@@ -91,7 +91,7 @@ flex-wrap: wrap;
     font-size: 30px;
     text-align: center;
 }
-.head { background-image: url(murchison-falls-park.jpg);
+.head { background-image: url(IMAGES/murchison-falls-park.jpg);
      height: 400px;
     width: 100%;
     background-size: cover;
@@ -329,7 +329,7 @@ position: relative;
     width: 70vw;
     height: 500px;}
    
-.quick {color: rgb(223, 223, 214);
+.quick {color: rgb(233, 233, 117);
 font-size: 35px;
 font-style: italic;}
 .books {
@@ -340,14 +340,14 @@ width: 80%;
 }
 
 .primate {
-    background-image: url(Kyamburu_Gorge_004@2x.jpg);
+    background-image: url(IMAGES/Kyamburu_Gorge_004@2x.jpg);
     width: 10% auto;
     background-size: cover;
     object-fit: cover;
     font-size: 50px;
     text-align: center;
     height: 400px;
-    color: aliceblue;
+    color: rgb(63, 152, 230);
     padding-top: 50px;
     
 }
@@ -640,7 +640,7 @@ margin-left: -10%;
 
 .big {
     margin-bottom: 10px;
-    background-image: url(murchison-falls-1229x820x184x0x860x820x1656053925.webp);
+    background-image: url(IMAGES/murchison-falls-1229x820x184x0x860x820x1656053925.webp);
     width: 100% auto;
     background-size: cover;
     object-fit: cover;
@@ -704,7 +704,7 @@ transition: transform 10s ease;
  }
 
  #gorilla {
-    background: url(WATER\ FALLS\ MUR.jpg);
+    background: url(IMAGES/WATER\ FALLS\ MUR.jpg);
     background-size: cover;
     object-fit: cover;
     height: 500px;
@@ -760,7 +760,7 @@ border: 1px;
     border-radius: 5px;
 } 
   .Kidepo {
-    background-image: url(Kidepo.jpg);
+    background-image: url(IMAGES/Kidepo.jpg);
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -773,7 +773,7 @@ border: 1px;
     margin-bottom: 50px;
   }  
   .best {
-    background-image: url(visit.jp.jpg);
+    background-image: url(IMAGES/visit.jp.jpg);
     background-size: cover;
     object-fit: cover;
     height: 600PX;
@@ -801,7 +801,7 @@ border: 1px;
    padding: 0rem;
   }
   .do {
-    background-image: url(WATER\ FALLS\ MUR.jpg);
+    background-image: url(IMAGES/WATER\ FALLS\ MUR.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 height: 500PX;
@@ -986,7 +986,7 @@ position: relative;
         border-radius: 10px;
         box-shadow: 0 4px 8px;
     }
-    .trip { background-image: url(gorilla-trekking-700x450.jpg);
+    .trip { background-image: url(IMAGES/gorilla-trekking-700x450.jpg);
         height: 400px; width: 100% auto; object-fit: cover;
         background-size: 100%;
         font-size: 30px;
