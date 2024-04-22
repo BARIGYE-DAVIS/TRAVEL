@@ -138,12 +138,15 @@ justify-content: space-between;}
 
 .nav-bar {
     display: flex;
+    justify-content: space-around;
     align-items: center;
+
     color: white;
     position: sticky;
+    
 top: 0;
 z-index: 100;
-background-color: #333;
+background-color: hsl(0, 6%, 79%);
 }
 .logo {
     padding: 1rem;
@@ -163,6 +166,10 @@ background-color: #333;
 .nav-links ul li a {
     justify-content: space-between;
     text-decoration: none;
+    font-size: 25px;
+    border-radius: 1rem;
+    background-color: sandybrown;
+    padding: .5rem 1rem;
     color: white;
 }
 
