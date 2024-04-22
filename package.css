@@ -186,10 +186,9 @@ background-color: hsl(0, 6%, 79%);
 .logo {
     color: #028338;
     font-size: 20px;
-    background-color: rgb(224, 152, 58);
+    background-color: rgb(58, 69, 224);
     margin: auto;
     padding: .5rem 1rem;
-    position: relative;
 }
 .logo img {
     border: 2px solid salmon;
