@@ -183,6 +183,24 @@ background-color: hsl(0, 6%, 79%);
     width: 30px;
     height: 21px;
 }
+.logo {
+    color: #028338;
+    font-size: 25px;
+    background-color: rgb(224, 152, 58);
+    margin: auto;
+    padding: .5rem 1rem;
+    position: relative;
+}
+.logo img {
+    border: 2px solid salmon;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    right: 95%;
+    border-radius: 50%;
+    top: -10px;
+    margin-right: 17px;
+}
 .toggle-button .bar {
     height: 3px;
     width: 100%;
