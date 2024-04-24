@@ -527,7 +527,7 @@ p {font-size: 25px;}
         width: 15rem;
     }
     .dogs{
-margin-left: -10%;
+        align-items: center;
     }
     .dog {
         width: 50vw;
