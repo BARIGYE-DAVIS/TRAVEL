@@ -479,8 +479,20 @@ p {font-size: 25px;}
    .toggle-button {
     display: flex;
 }
+.img {
+    background-size: cover;
+     height: 100vh;
+    margin-bottom: 15rem;
+     position: relative;
+    
+    
+    }
 #background{
+    position: relative;
     height: 115vw;
+    top: 0;
+        bottom: 0;
+        z-index: -1;
 }
 .detail{
     width: 95vw;
