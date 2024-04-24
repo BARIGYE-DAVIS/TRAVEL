@@ -12,6 +12,8 @@ body {background-color:rgb(239, 245, 247);
 flex-wrap: wrap;
 
 }
+
+
 .detail{
     width: 70vw;
     background-color: rgb(240, 248, 255);
@@ -476,6 +478,9 @@ p {font-size: 25px;}
     width: 100vw;}
    .toggle-button {
     display: flex;
+}
+#background{
+    height: 115vw;
 }
 .detail{
     width: 95vw;

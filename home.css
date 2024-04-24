@@ -1,8 +1,17 @@
   .img {
-    /*background-image: url(IMAGES/ELEPHANT.jpg);*/
     background-size: cover;
-     height: 500px;
+     height: 100vh;
+    margin-bottom: 15rem;
+     position: relative;
     
+    
+    }
+    #background{
+        position: absolute;
+        height: 70vw;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
     }
         .EX {font-weight: bold;font-size: 60px;
         color: rgb(114, 24, 24);
