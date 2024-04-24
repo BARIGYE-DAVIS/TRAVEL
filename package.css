@@ -477,6 +477,9 @@ p {font-size: 25px;}
    .toggle-button {
     display: flex;
 }
+.detail{
+    width: 95vw;
+}
 .margin p {
     font-size: 20px;
 }
