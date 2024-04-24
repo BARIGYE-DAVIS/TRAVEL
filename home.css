@@ -16,7 +16,7 @@
     #background{
         position: absolute;
     
-
+       max-width: 100vw;
         overflow: hidden;
         top: 0;
         bottom: 0;

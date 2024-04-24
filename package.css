@@ -492,7 +492,8 @@ p {font-size: 25px;}
     }
 #background{
     position: absolute;
-    max-width:   200vw;
+    
+    height: 100vw;
     
     top: 0;
 
