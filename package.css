@@ -480,24 +480,7 @@ p {font-size: 25px;}
    .toggle-button {
     display: flex;
 }
-/*.img {
-    background-size: cover;
-     height: 100vh;
-     margin: 0;
-     padding: 0;
-     width: 100% auto;
-     position: relative;
-    
-    }
-#background{
-    position: absolute;
-    height: 100vw;
-    top: 0;
-    width: 50% auto;
-    margin: 0;
-    bottom: 0;
-    z-index: -1;
-}*/
+
 .detail{
     width: 95vw;
 }
