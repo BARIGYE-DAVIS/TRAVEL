@@ -488,11 +488,11 @@ p {font-size: 25px;}
     
     }
 #background{
-    position: relative;
-    height: 115vw;
+    position: absolute;
+    height: 100vw;
     top: 0;
-        bottom: 0;
-        z-index: -1;
+    bottom: 0;
+    z-index: -1;
 }
 .detail{
     width: 95vw;
