@@ -6,26 +6,32 @@
   .img {
     background-size: cover;
      height: 100vh;
-    margin-bottom: 15rem;
+    margin-bottom: 23rem;
      position: relative;
+     align-items: center;
+    
     
     
     }
     #background{
         position: absolute;
-        height: 70vw;
+    
+
+        overflow: hidden;
         top: 0;
         bottom: 0;
         z-index: -1;
     }
         .EX {font-weight: bold;font-size: 60px;
-        color: rgb(114, 24, 24);
+        color: hsl(240, 36%, 28%);
         display:flex;
+        padding: 2rem 3rem;
         justify-content: center;
     margin-inline-start: 2PX;}
            .EA {font-weight: bold;
             font-size: 50px; 
-            color: rgb(37, 22, 37);
+            color: rgb(228, 30, 4);
+            padding: 2rem 3rem;
             display:flex;
             justify-content: center;
     margin-inline-start: 2PX;
@@ -51,6 +57,7 @@ margin: 20px;
     }
     #view {
         text-align: center;
+        padding: 2rem 3rem;
 
     }
     img {
