@@ -482,15 +482,18 @@ p {font-size: 25px;}
 .img {
     background-size: cover;
      height: 100vh;
-    margin-bottom: 15rem;
+     margin: 0;
+     padding: 0;
+     width: 100% auto;
      position: relative;
-    
     
     }
 #background{
     position: absolute;
-    height: 100vw;
+    height: 70vw;
     top: 0;
+    width: 100% auto;
+    margin: 0;
     bottom: 0;
     z-index: -1;
 }
