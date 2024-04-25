@@ -525,8 +525,10 @@ p {font-size: 25px;}
     display: flex;
 }
 
-    .wonder, .private, .DAY{
+
+    .wonder{
         font-size: 20px;
+        margin: auto;
     }
  .excludes {
         font-size: 20px;
