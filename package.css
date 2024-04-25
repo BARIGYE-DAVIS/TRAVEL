@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {background-color:rgb(239, 245, 247);
+body {background-color: #fff;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -215,7 +215,7 @@ padding: 5px;
 .GET {background-color: #0099cc;
 font-size: 10px;
 margin-top: 50px;
-color: whitesmoke;
+color: rgb(208, 212, 210);
 padding: 20px;
 width: 100vw;
 font-weight: normal;
@@ -450,11 +450,26 @@ text-align: right;
     font: italic;
 }
 .in {
-    font-size: 35px;
+    font-size: 40px;
     color : white;
     padding: 2rem 3rem;
+    font-weight: 700;
     font-style: italic;
     text-align: center;
+}
+.wonder {
+    margin: 20px 5rem;
+}
+.wonder p {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    word-spacing: .3rem;
+
+}
+.wonder p b {
+    font-size: 1.5rem;
+    color: rgb(93, 9, 250);
+    word-spacing: .3rem;
 }
 .on {
     font-size: 30px;
