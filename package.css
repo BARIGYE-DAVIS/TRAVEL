@@ -370,7 +370,8 @@ width: 80%;
 
 #out {
     display: flex;
-    flex-direction: row;
+    margin: 2rem 5rem;
+    align-items: center;
     flex-wrap: wrap;
 }
 @keyframes slideIn {
