@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.PACKAGE{
+    margin: 1rem auto;
+    width: 70vw;
+    border: 2px solid lightblue;
+    
+}
+.day,.day3,.da5,.day7 {
+    font-size: 20px;
+    color: rgb(2, 73, 73);
+    border-bottom: 1px solid brown;
+    position: relative;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    background-color: rgb(228, 225, 222);
+}
+.day2,.day4,.day6{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(2, 73, 73);
+    border-bottom: 1px solid brown;
+    position: relative;
+    padding: .5rem 1rem;
+    background-color: rgb(201, 175, 162);
+}
+.day-1,.day-2, .day-3,.day-4,.day-5,.day-6,.day-7 {
+    padding: .5rem 1rem;
+    display: none;
+}
+.day-1,.day-2, .day-3,.day-4,.day-5,.day-6,.day-7 p {
+    font-size: 20px;
+}
