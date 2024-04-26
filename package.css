@@ -1111,12 +1111,16 @@ position: relative;
     color: #fff;
     position: relative;
 }
+.list p {
+    padding: .5rem 1rem;
+}
 .list {
-    color: rgb(7, 174, 240);
+    color: #fff;
     font-size: 25px;
     margin: 1rem auto;
     height: 0;
-    background-color: #e4d2d2;
+    transition: 1s;
+    background-color: rgb(48, 73, 73);
     width: 50vw;
 
     overflow: hidden;
