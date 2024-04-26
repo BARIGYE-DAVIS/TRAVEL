@@ -36,14 +36,14 @@
         </div>
 <div class="uga">10 DAYS SAFARI IN UGANDA</div>
 <H1>OVER VIEW</H1>
-<div class="based">
+<div class="wonder">
     <P>This is a tour we recommend to those who want to taste the sweetness of Uganda safari.<br>
         This trip takes you  through some of the best National parks and activities. this safari suitable<br>
         to the young and elderly. This is the beauty of Uganda summarized but itis not all. The  highlights<br>
         safari are as follows!
     </P>
 </div>
-          <span class="one">Safari highlights</span>
+          <h4 class="high"> Safari highlights <span><img src="IMAGES/expand.png" alt="" class="ex1"></span></h4>
           <ul class="list">
             <li>Rhinotracking</li>
             <li>Murchison Falls visit</li>
@@ -53,6 +53,20 @@
             <li>Chimpanzee trekking</li>
             <li>tree climbing lions </li>
           </ul>
+          <script>
+            var head = document.querySelector('.high');
+            var list = document.querySelector('.list');
+            var ex1 = document.querySelector('.ex1');
+            head.addEventListener('click',function(){
+                if (list.style.height === "") {
+                    list.style.height = "fit-content";
+                    ex1.style.transform = "rotate(-180deg)";
+                } else {
+                    list.style.height = "";
+                    ex1.style.transform = "rotate(0deg)";
+                }
+            })
+          </script>
           <P class="one">YOUR ITINERARY</P>
     <DIV class="detail">
         <label for="first">Day 1:Drive to Murchison Falls National Park
