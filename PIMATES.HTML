@@ -42,15 +42,30 @@ Wildlife Safari</div>
         <p>This Safari is the best of those whose love both primates and wildlife experience.</p>
         
 </div>
-<h2>highlights</h2>
-<div class="lis">
-    <p>Day 1: Transfer to Bwindi Bwindi Impenetrable National Park</p>
+<h2 class="high">highlights <span><img src="IMAGES/expand.png" alt="" class="ex1"></span></h2>
+<div class="list">
+<p>Day 1: Transfer to Bwindi Bwindi Impenetrable National Park</p>
 <p>Day 2: gorilla-trekking</p>
 <p>Day 3: Transfer to Queen Elizabeth NP</p>
 <P>Day 4: Game viewing and boat trip</P>
 <p>Day 5: Drive to Kibale Forest NP</p>
 <p>Day 6: chimpanzee trekking.</p>
 </div>
+<script>
+    var head = document.querySelector('.high');
+    var list = document.querySelector('.list');
+    var ex = document.querySelector('.ex1');
+    head.addEventListener('click', function(){
+        if (list.style.height === ""){
+            list.style.height = "fit-content";
+            ex.style.transform = "rotate(-180deg)";
+        }
+        else {
+            list.style.height = "";
+            ex.style.transform = "rotate(0deg)";
+        }
+    })
+</script>
 <h3 class="PERI"><b>INTNERARY IN DETAILS</b></h3>
 <div class="detail">
     <label for="first"><b>Day 1: Transfer to Bwindi Impenetrable National Park</label>
