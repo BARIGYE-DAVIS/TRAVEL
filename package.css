@@ -1104,7 +1104,7 @@ position: relative;
 .high {
     text-align: center;
     background-color: rgb(48, 73, 73);
-    width: 50vw;
+    width: 60vw;
     margin: 1rem auto;
     cursor: pointer;
     font-size: 2rem;
@@ -1121,7 +1121,7 @@ position: relative;
     height: 0;
     transition: 1s;
     background-color: rgb(48, 73, 73);
-    width: 50vw;
+    width: 80vw;
 
     overflow: hidden;
 }
