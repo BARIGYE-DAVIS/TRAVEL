@@ -9,6 +9,7 @@ for (var i = 0; i <titles.length; i++){
    //hide panels
    for(var k = 0; k < details.length; k++) {
     details[k].style.display = "none";
+    
     titles[k].classList.remove("active"); 
     rotate[k].style.transform = "rotate(0deg)";
     // show panel when clicked
