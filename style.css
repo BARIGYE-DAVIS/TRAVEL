@@ -12,19 +12,20 @@
 .panel{
     display: none;
     padding: 0 1rem;
-    background-color: rgb(187, 180, 180);
+    color: rgb(1, 14, 9);
+    background-color: #e4d2d2;
 }
 .panel p{
     font-size: 20px;
 }
 .day,.day3,.da5,.day7 {
     font-size: 20px;
-    color: rgb(2, 73, 73);
+    color:  rgb(48, 73, 73);
     border-bottom: 1px solid brown;
     position: relative;
     cursor: pointer;
     padding: .5rem 1rem;
-    background-color: rgb(228, 225, 222);
+    background-color:  #fff;
 }
 .day2,.day4,.day6{
     font-size: 20px;
