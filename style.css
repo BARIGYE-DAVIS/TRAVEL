@@ -9,6 +9,14 @@
     border: 2px solid lightblue;
     
 }
+.panel{
+    display: none;
+    padding: 0 1rem;
+    background-color: rgb(187, 180, 180);
+}
+.panel p{
+    font-size: 20px;
+}
 .day,.day3,.da5,.day7 {
     font-size: 20px;
     color: rgb(2, 73, 73);
@@ -33,4 +41,10 @@
 }
 .day-1,.day-2, .day-3,.day-4,.day-5,.day-6,.day-7 p {
     font-size: 20px;
+}
+@media (max-width :768px)
+{
+    .PACKAGE{
+        width: 90VW;
+    }
 }
