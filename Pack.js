@@ -33,7 +33,10 @@ var image = document.getElementById("ten");
 image.addEventListener("click",function() {
     window.location.href = "10 days.html";
 });
-
+ var  image = document.getElementById("day7");
+ image.addEventListener('click',function(){
+ window.location.href= "7days.html";
+ });
            
 
 
