@@ -546,7 +546,7 @@ p {font-size: 25px;}
         font-weight: lighter;
         margin-left: 2rem;
         margin-top: 1rem;
-        background-color: rgb(119, 149, 233);
+        background-color: rgb(1, 13, 46);
         box-shadow: 0 8px 10px lightgreen;
         padding-left: 15px;
         border-radius: 10px;
@@ -1053,7 +1053,7 @@ position: relative;
     padding: 1rem 2rem;
 }
 .info {
-    background-color: #fff;
+    background-color: #b9baf5;
     border: 1px solid greenyellow;
     font-size: 20px;
     box-shadow: 0px 6px 8px #fff;

@@ -50,6 +50,10 @@
     .PACKAGE{
         width: 90VW;
     }
+    #ex1 {
+        
+        width: 80vw;
+    }
 }
 .classic:hover {
     background-color: rgb(153, 153, 161);
