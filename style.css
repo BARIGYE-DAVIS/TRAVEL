@@ -13,7 +13,7 @@
     display: none;
     padding: 0 1rem;
     color: rgb(1, 14, 9);
-    background-color: #e4d2d2;
+    
 }
 .panel p{
     font-size: 20px;
@@ -34,7 +34,7 @@
     border-bottom: 1px solid brown;
     position: relative;
     padding: .5rem 1rem;
-    background-color: rgb(201, 175, 162);
+    background-color: rgb(184, 181, 233);
 }
 .day-1,.day-2, .day-3,.day-4,.day-5,.day-6,.day-7 {
     padding: .5rem 1rem;
