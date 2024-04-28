@@ -476,6 +476,7 @@ p {font-size: 25px;}
     flex-direction: column;
     align-items: flex-start;
 }
+
 .nav-links ul {
     width: 100%;
 
@@ -1047,10 +1048,13 @@ position: relative;
 }
 .price {
     color: green;
+
     padding: .5rem 1rem;
     font-size: 25px;
+     width: 50vw;
 }
 .PERI {
+    width: 80vw;
     padding: 1rem 2rem;
 }
 #MTN {
