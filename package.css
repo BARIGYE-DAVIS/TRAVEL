@@ -155,7 +155,7 @@ background-color: hsl(0, 6%, 79%);
  .caption2 {font-size: 20px;
  }
 .nav-links ul li:hover {
-    color:#18191a;
+   background-color: #2c6eb1;
 }
  .caption2 {font-size: 20px;
 color: red;
@@ -212,6 +212,7 @@ z-index: 100;
 position: fixed;
 left: -1rem;
 top: 20rem;
+display: none;
 }
 .email img {
     height: 2rem;
@@ -225,13 +226,14 @@ top: 20rem;
     color: white;
 }
 .whatsapp {
-width: 15rem;
+width: 10rem;
 height: 2rem;
 background-color: green;
 border-radius: 2rem;
 padding: 0.5rem;
 position: fixed;
-top: 25rem;
+top: 30rem;
+left: 75%;
 }
 .whatsapp :hover{
     transform: translate(2);
@@ -250,6 +252,8 @@ width: 100vw;
 position: relative;
     height: 2rem;
     width: 2rem;
+    top: -.8rem;
+    padding: .1rem;
     font-size: 10rem;
 }
 .dog {
@@ -451,7 +455,9 @@ p {font-size: 25px;}
    .toggle-button {
     display: flex;
 }
-
+.whatsapp{
+    left: 60%;
+}
 
 .detail{
     width: 95vw;
