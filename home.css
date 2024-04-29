@@ -4,15 +4,24 @@
     box-sizing: border-box;
   }
   .img {
- background-image: url(IMAGES/ELEPHANT3.jpg);
+     height: auto;
     object-fit: cover;
     width: 100% auto;
-    margin-bottom: 1rem;
+    margin-bottom: 11rem;
+    position: relative;
      position: relative;
      align-items: center;
     
     
     
+    }
+    #video{
+        position: absolute;
+        z-index: -1;
+        height: 60vw;
+    
+    
+        
     }
     
         .EX {font-weight: bold;font-size: 60px;
@@ -57,4 +66,12 @@ margin: 20px;
         width: 700px;
         height: 500px;
     }
-    
+    @media (max-width:768px){
+        #video {
+            display: none;
+        }
+        .img{
+            background-image: url(IMAGES/ELEPHANT3.jpg);
+            margin-bottom: -5rem;
+        }
+    }
