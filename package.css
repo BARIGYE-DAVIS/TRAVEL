@@ -507,7 +507,7 @@ p {font-size: 25px;}
 }
 form.from {
     width: 70vw;
-    background-color: #0099cc;
+    
 }
 
 .nav-links ul {
@@ -783,7 +783,7 @@ transition: transform 10s ease;
     
     border-radius: 10px;
     align-content: center;
-     padding: 1rem 2rem;
+     
     
 }
 form.from label{
@@ -796,7 +796,7 @@ input {
     margin: 1rem;
     cursor: pointer;
     border-radius: 1rem;
-    padding: .5rem 1rem;
+    padding: .5rem;
 }
 .from button{
     background-color: rgb(23, 236, 236);
