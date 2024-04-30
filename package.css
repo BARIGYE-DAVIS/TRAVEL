@@ -12,8 +12,17 @@ body {background-color: white;
 flex-wrap: wrap;
 
 }
+#blog {
+    cursor: pointer;
+}
+#things {
+    cursor: pointer;
+}
 
-
+#out img {
+    margin: 1rem;
+    border-radius: .7rem;
+}
   
 .DEN {
     background-color: rgb(0, 255, 255);
@@ -174,7 +183,7 @@ word-spacing: 5px;
 }
 .DOG {margin-top: 50px;
 box-shadow: 0 4px 8px;
-padding-left: 30px;
+
 margin: 15px;
 border-radius: 10px;
 position: relative;
@@ -182,6 +191,13 @@ width: 450px;
 height: 400px;
 transition: transform 10S ease;
 
+}
+.DOG img {
+border-radius: .5rem;
+}
+img {
+    height: 15rem;
+    width: 20rem;
 }
 
 .DOG:hover {
@@ -372,7 +388,7 @@ margin-left: 50px;
 figcaption {
     padding: 1rem 2rem;
 }
-img {
+.DOGS img {
     width: 40rem;
     height: 20rem;
     border-radius: 10px;
@@ -740,6 +756,9 @@ transition: transform 10s ease;
     display: flex;
     flex-direction: row;
     overflow: scroll;
+}
+.pic img {
+    margin: .5rem;
 }
 
 

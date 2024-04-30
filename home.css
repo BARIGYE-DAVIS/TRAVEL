@@ -63,6 +63,7 @@ margin: 20px;
 
     }
     
+    
     @media (max-width:768px){
         #video {
             display: none;
