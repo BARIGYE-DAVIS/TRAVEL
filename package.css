@@ -369,11 +369,14 @@ margin-left: 50px;
     color: brown;
     text-align: center;
 }
+figcaption {
+    padding: 1rem 2rem;
+}
 img {
-    width: 300Px;
-    height: 250px;
+    width: 40rem;
+    height: 20rem;
     border-radius: 10px;
-    margin: 5px;
+
 }
 html {
  width: 100vw;
@@ -516,6 +519,17 @@ p {font-size: 25px;}
         width: 80vw;
     
     }
+  .dogs .DOGS{
+    
+    width: 20rem;
+    align-items: center;
+    
+    margin: 3rem auto;
+    }
+    .dogs .DOGS img {
+        width: 20rem;
+    }
+
     .dogs{
         align-items: center;
     }
@@ -665,12 +679,11 @@ margin-left: -10%;
 .DOGS{
     margin-top: 50px;
 box-shadow: 0 4px 8px;
-padding-left: 30px;
-margin-left: 10px;
+
 margin-right: 30px;
 border-radius: 10px;
-height: 400PX;
-width: 350px;
+height: 30rem;
+width: 40rem;
 transition: transform 10s ease;
 }
 .DOGS:hover {

@@ -62,14 +62,12 @@ margin: 20px;
         padding: 2rem 3rem;
 
     }
-    img {
-        width: 700px;
-        height: 500px;
-    }
+    
     @media (max-width:768px){
         #video {
             display: none;
         }
+        
         .img{
             background-image: url(IMAGES/ELEPHANT3.jpg);
             margin-bottom: -5rem;
