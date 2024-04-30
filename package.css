@@ -576,6 +576,7 @@ p {font-size: 25px;}
         font-size: 20px;
     
     }
+    
     .D0GS{
         width: 10%;
     
@@ -774,7 +775,7 @@ transition: transform 10s ease;
 .from {
     background-color: #fff;
     border: 2px solid lightblue;
-    width: fit-content;
+    width: min-content;
     
     border-radius: 10px;
     align-content: center;
