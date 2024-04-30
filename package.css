@@ -340,10 +340,13 @@ width: 80%;
 }
 
 #out {
-    display: flex;
-    margin: 2rem 5rem;
-    align-items: center;
-    flex-wrap: wrap;
+ display: flex;
+  width: 90vw;
+  justify-content: center;
+  
+ align-items: center;
+ flex-wrap: wrap;
+
 }
 @keyframes slideIn {
     0% {transform: translateX(-100%)}
@@ -474,6 +477,10 @@ p {font-size: 25px;}
 
     width: 80vw;
 
+}
+#out {
+    
+    align-items: center;
 }
    .toggle-button {
     display: flex;
