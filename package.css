@@ -249,7 +249,7 @@ border-radius: 2rem;
 padding: 0.5rem;
 position: fixed;
 top: 30rem;
-left: 75%;
+left: 85%;
 }
 .whatsapp :hover{
     transform: translate(2);
@@ -489,7 +489,7 @@ p {font-size: 25px;}
     display: flex;
 }
 .whatsapp{
-    left: 60%;
+    left: 55%;
 }
 
 .detail{
@@ -504,6 +504,10 @@ p {font-size: 25px;}
 .nav-bar{
     flex-direction: column;
     align-items: flex-start;
+}
+form.from {
+    width: 100%;
+    background-color: #0099cc;
 }
 
 .nav-links ul {
@@ -775,7 +779,7 @@ transition: transform 10s ease;
 .from {
     background-color: #fff;
     border: 2px solid lightblue;
-    width: min-content;
+    width: 30vw;
     
     border-radius: 10px;
     align-content: center;
