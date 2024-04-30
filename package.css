@@ -470,8 +470,11 @@ p {font-size: 25px;}
 @media( max-width:768px){
     .home {display: block;}
     .menu {display: table-colum;}
-    #Entry {display: block;
-    width: 100vw;}
+    #Entry {
+    display: block;
+     margin: 2rem;
+    width: 100vw;
+}
     #MTN {
     display: block;
 
@@ -519,6 +522,7 @@ p {font-size: 25px;}
 }
 
 
+
     .wonder{
         font-size: 20px;
         margin: auto;
@@ -534,14 +538,13 @@ p {font-size: 25px;}
         width: 70%;
     }
     .link {display: none;}
-    .from{width: 50vw;
-        width: 60px;
-        background-color: rgb(250, 147, 11);
-    }
+
     .info{
         width: 80vw;
     
     }
+   
+    
   .dogs .DOGS{
     
     width: 20rem;
@@ -577,6 +580,9 @@ p {font-size: 25px;}
         width: 10%;
     
     }
+    .excludes, .includes {
+        align-items: center;
+    }
  
 }
     
@@ -588,14 +594,18 @@ p {font-size: 25px;}
         font-weight: lighter;
         margin-left: 2rem;
         margin-top: 1rem;
-        background-color: rgb(1, 13, 46);
+        background-color:  rgb(48, 73, 73);
         box-shadow: 0 8px 10px lightgreen;
         padding-left: 15px;
         border-radius: 10px;
-        color: #e4d2d2;
+        color: white;
         margin-bottom: 40px;
         word-spacing: 5px;
         width: 70vw;
+    }
+    .includes p {
+        font-size: 1.3rem;
+        padding: .5rem 1rem;
     }
   .bit{
     width: 90%;
@@ -660,16 +670,8 @@ margin-left: -10%;
     }
     
 
-@media (min-width :1000px) {
-    .uga {
-        background-size: 100%;
-        width: 100%;
-        height: 50%;
-        margin-bottom: 0%;
-        font-size: 40px;
-        padding-bottom: 50px;
-    }
-}
+
+
     
 
     .out {
@@ -770,14 +772,47 @@ transition: transform 10s ease;
 
 
 .from {
-    background-color:pink;
+    background-color: #fff;
     border: 2px solid lightblue;
-    width: 15rem;
+    width: fit-content;
     
     border-radius: 10px;
     align-content: center;
-
+     padding: 1rem 2rem;
     margin: 20px;
+}
+form.from label{
+    padding: 1rem 2rem;
+}
+input {
+    background-color:  rgb(2, 73, 73);
+    height: 2.5rem;
+    width: 15rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+}
+.from button{
+    background-color: rgb(23, 236, 236);
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    margin: 1rem 4rem;
+   cursor: pointer;
+}
+label {
+    color: rgb(38, 38, 48);
+    font-size: 1.5rem;
+}
+textarea {
+    height: 5rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    background-color: #f1f1f1;
 }
 .name {
     margin: 20px;
@@ -1072,9 +1107,9 @@ position: relative;
 
   }
   form {
-    background-color:pink;
+    background-color: #fff;
     border: 2px solid lightblue;
-    width: 15rem;
+    width: fit-content;    
     border-radius: 10px;
     padding: 20px;
     align-content: center;
