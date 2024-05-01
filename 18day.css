@@ -3,7 +3,14 @@
     padding: 0%;
     box-sizing: border-box;
 }
-/*
+body {background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden; 
+flex-wrap: wrap;
+
+}
 .excludes {
     font-size: 0px;
     font-weight: lighter;
