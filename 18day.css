@@ -166,19 +166,14 @@ margin-bottom: 20px;}
     
 
 }
-.greys {
-    font-size: 15px;
-    width: 10rem;
-    border: 1px solid rgb(123, 123, 235);
-    border-radius: 2rem;
-    margin: 5px;
-    background-color: rgb(6, 53, 37);
-    color: rgb(14, 116, 116);
-    padding: .5rem 1rem;
-    height: 2rem;
+.grey {
+
+    color: green;
+    
 }
 input::placeholder {
-    color: #ffffff;
+    color: green;
+    font-size: 1.2rem;
 }
 textarea::placehold
 er {

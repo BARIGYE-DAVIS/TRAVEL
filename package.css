@@ -505,9 +505,13 @@ p {font-size: 25px;}
     flex-direction: column;
     align-items: flex-start;
 }
+.PERI.perice {
+    width: 50vw;
+}
 form.from {
     width: 70vw;
-    background-color: #2c6eb1;
+    margin-top: 1rem;
+    background-color:  rgb(48, 73, 73);
 }
 
 .nav-links ul {
@@ -777,7 +781,7 @@ transition: transform 10s ease;
 
 
 .from {
-    background-color: #fff;
+    background-color:  rgb(48, 73, 73);
     border: 2px solid lightblue;
     width: 30vw;
     
@@ -786,9 +790,12 @@ transition: transform 10s ease;
      
     
 }
-form.from label{
-    padding: 1rem 2rem;
+.from h3 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
 }
+
 input {
     background-color:  rgb(2, 73, 73);
     height: 2.5rem;
@@ -810,7 +817,7 @@ input {
    cursor: pointer;
 }
 label {
-    color: rgb(38, 38, 48);
+    color: #fff;
     font-size: 1.5rem;
 }
 textarea {
@@ -1113,15 +1120,19 @@ position: relative;
     box-shadow: 0rem 4rem 6rem;
 
   }
-  form {
+  form input {
     background-color: #fff;
+    color: green
+  }
+  form {
+    background-color:  rgb(48, 73, 73);
     border: 2px solid lightblue;
     width: fit-content;    
     border-radius: 10px;
     padding: 20px;
     align-content: center;
     padding-left: 20px;
-    margin: 20px;
+
 }
 .per { color: peru;
     padding: 1rem 2rem;
@@ -1129,14 +1140,14 @@ position: relative;
 }
 .price {
     color: green;
-
+  
     padding: .5rem 1rem;
     font-size: 25px;
-     width: 50vw;
+    
 }
 .PERI {
-    width: 80vw;
-    padding: 1rem 2rem;
+    width: 40rem ;
+    margin: 2rem;
 }
 #MTN {
     padding: 1rem 2rem;
