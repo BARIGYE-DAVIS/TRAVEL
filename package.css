@@ -473,7 +473,7 @@ p {font-size: 25px;}
     #Entry {
     display: block;
      margin: 2rem;
-    width: 100vw;
+    
 }
     #MTN {
     display: block;
@@ -601,11 +601,11 @@ form.from {
         background-color: aliceblue;
         font-size: 10px;
         font-weight: lighter;
-        margin-left: 2rem;
+        
         margin-top: 1rem;
         background-color:  rgb(48, 73, 73);
         box-shadow: 0 8px 10px lightgreen;
-        padding-left: 15px;
+        
         border-radius: 10px;
         color: white;
         margin-bottom: 40px;
