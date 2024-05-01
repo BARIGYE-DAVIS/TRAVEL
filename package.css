@@ -596,7 +596,7 @@ form.from {
 }
     
     
-    .includes {
+    /*.includes {
         border: 2px  lightgreen;
         background-color: aliceblue;
         font-size: 10px;
@@ -615,7 +615,7 @@ form.from {
     .includes p {
         font-size: 1.3rem;
         padding: .5rem 1rem;
-    }
+    }*/
   .bit{
     width: 90%;
     padding: 5px;
