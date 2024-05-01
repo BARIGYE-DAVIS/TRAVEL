@@ -17,21 +17,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   // Sanitize and validate user input
 
-  $name_first = filter_input(INPUT_POST, 'ordre name', FILTER_SANITIZE_STRING);
-  $name_last = filter_input(INPUT_POST, 'order name', FILTER_SANITIZE_STRING);
-  $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-  $phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING);
-  $number_travelers = filter_input(INPUT_POST, 'number', FILTER_SANITIZE_NUMBER_INT);
-  $start_date = filter_input(INPUT_POST, 'date', FILTER_SANITIZE_STRING);
-  $number_days = filter_input(INPUT_POST, 'number', FILTER_SANITIZE_NUMBER_INT);
+  $name_first = mysqli_real_escape_string($conn, $_POST ["First_name"]);
+  $name_last = mysqli_real_escape_string($conn, $_POST["Last_name"]);
+  $email = mysqli_real_escape_string($conn, $_POST["email"]);
+  $phone = mysqli_real_escape_string($conn, $_POST["phone"]);
+  $number_travelers = mysqli_real_escape_string( $conn, $_POST["number"]);
+  $start_date = mysqli_real_escape_string($conn, $_POST["date"]);
+  $number_days = mysqli_real_escape_string($conn, $_POST["number"]);
 
   // Get selected interests (checkboxes)
   $interests = array();
   if (isset($_POST['mountain Gorilla trekking'])) {
-    $interests[] = 'Mountain Gorilla Trekking';
+    $interests[] = 'Mountain Gorilla trekking';
   }
-  if (isset($_POST['Chimpanzee tracking'])) {
-    $interests[] = 'Chimpanzee Tracking';
+  if (isset($_POST['Chimpanzee'])) {
+    $interests[] = 'Chimpanzee';
   }
   if (isset($_POST['Natural walks'])){
     $interests[] = 'Natural walks';
@@ -40,17 +40,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $interests[] = 'champing Safari Holidays';
   }
   if (isset($_POST['Boat Trips'])) {
-    $interests[] = 'Boat  Trip';
+    $interests[] = 'Boat  Trips';
   }
   if (isset($_POST['Air Ballon Adventures'])) {
     $interests[] = 'Air Ballon Adventures';
 
   }
-  if (isset($_POST['Rwenzo  trekking'])) {
-    $interests[] = 'Rwenzo trekking';
+  if (isset($_POST['Rwenzo  Trekking'])) {
+    $interests[] = 'Rwenzo Trekking';
   }
-  if (isset($_POST['family holiday'])) {
-    $interests[] = 'family holiday';
+  if (isset($_POST['family Holiday'])) {
+    $interests[] = 'family Holiday';
   }
   // ... Add logic for other checkboxes
 
@@ -61,13 +61,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   // Get desired accommodation (radio buttons)
-  $accommodation = filter_input(INPUT_POST, 'Budget', FILTER_SANITIZE_STRING);
+  $accommodation = filter_input(INPUT_POST, "Budget", FILTER_SANITIZE_STRING);
 
   // Validate and process data further (optional)
-$sql = "INSERT INTO `contact_form` (`NAME`, `NUMBER_OF_PEOPLE`, `EMAIL`, `PASSPORT_NUMBER`, `WHATSAPP_NUMBER`) VALUES (?, ?, ?, ?, ?)";
+$sql = "INSERT INTO `contact_form` (`name_first`, `name_last `, `email `, `phone`, `number_travelers`, `start_date`, `number_days`, `interests`, `destinations`, `accommodations`) VALUES (?, ?, ?, ?, ?,?,?,?,?,?)";
+ $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ssssssssss", $name_first, $name_last, $email, $phone, $number_travelers, $start_date, $number_days, implode(',', $interests), implode(',', $destinations), $accommodation);
   // Send email notification or store data in database (optional)
 
-  $message = "A new contact form submission has been received:\n\n";
+  /*$message = "A new contact form submission has been received:\n\n";
   $message .= "Name: $name_first $name_last\n";
   $message .= "Email: $email\n";
   $message .= "Phone: $phone\n";
@@ -82,18 +84,15 @@ $sql = "INSERT INTO `contact_form` (`NAME`, `NUMBER_OF_PEOPLE`, `EMAIL`, `PASSPO
 
   // Replace with your actual mail sending logic
   mail('barigyedavis6@gmail.com', 'Contact Form Submission', $message);
-
+*/
   // Display success message or redirect to a confirmation page
-  echo '<p>Thank you for contacting Apes Africa Safaris! Your message has been sent.</p>';
-
-} else {
-  // Display the contact form if accessed directly
-  // You can include the HTML form here
+  if ($stmt->execute() === true) {
+    echo '<p>Thank you for contacting Apes Africa Safaris! Your message has been sent.</p>';
+  }
+else {
+    echo "Error: " . $stmt->error;
+  }
+  $stmt->close();
 }
-
-?>
-
-
-
 
 ?>
