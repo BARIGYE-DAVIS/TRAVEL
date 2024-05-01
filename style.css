@@ -73,3 +73,9 @@
     
     object-fit: cover;
 }
+.CONTACT{
+    margin: 1rem auto;
+    width: 70vw;
+    
+    padding: 1rem;
+}
