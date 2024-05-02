@@ -1,14 +1,18 @@
-  *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-  }
+
+  
+body {background-color: white;
+
+
+    width: 100vw;
+    overflow-x: hidden; 
+flex-wrap: wrap;
+
+}
   .img {
      height: auto;
     object-fit: cover;
     width: 100% auto;
     margin-bottom: 11rem;
-    position: relative;
      position: relative;
      align-items: center;
     
