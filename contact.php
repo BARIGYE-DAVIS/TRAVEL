@@ -27,37 +27,46 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   // Get selected interests (checkboxes)
   $interests = array();
-  if (isset($_POST['mountain Gorilla trekking'])) {
-    $interests[] = 'Mountain Gorilla trekking';
+  if (isset($_POST['mountain_Gorilla_trekking'])) {
+    $interests[] = 'mountain Gorilla trekking';
   }
   if (isset($_POST['Chimpanzee'])) {
     $interests[] = 'Chimpanzee';
   }
-  if (isset($_POST['Natural walks'])){
+  if (isset($_POST['Natural_walks'])){
     $interests[] = 'Natural walks';
   }
-  if (isset($_POST['champing Safari Holidays'])) {
+  if (isset($_POST['champing _Safari_Holidays'])) {
     $interests[] = 'champing Safari Holidays';
   }
-  if (isset($_POST['Boat Trips'])) {
+  if (isset($_POST['Boat_Trips'])) {
     $interests[] = 'Boat  Trips';
   }
-  if (isset($_POST['Air Ballon Adventures'])) {
+  if (isset($_POST['Air Ballon_Adventures'])) {
     $interests[] = 'Air Ballon Adventures';
 
   }
-  if (isset($_POST['Rwenzo  Trekking'])) {
+  if (isset($_POST['Rwenzo_Trekking'])) {
     $interests[] = 'Rwenzo Trekking';
   }
-  if (isset($_POST['family Holiday'])) {
+  if (isset($_POST['family_Holiday'])) {
     $interests[] = 'family Holiday';
   }
   // ... Add logic for other checkboxes
 
   // Get selected destinations (checkboxes)
   $destinations = array();
-  if (isset($_POST['destinations'])) {
-    $destinations = $_POST['destinations']; // Array of selected destinations
+  if (isset($_POST['uganda'])) {
+    $destinations[] = 'uganda'; // Array of selected destinations
+  }
+  if(isset($_POST['Rwanda'])) {
+    $destinations[] = 'Rwanda';
+  }
+  if (isset($_POST['Kenya'])){
+    $destinations[] = 'Kenya';
+  }
+  if (isset($_POST['Tanzania'])){
+    $destinations[] = 'Tanzania';
   }
 
   // Get desired accommodation (radio buttons)
