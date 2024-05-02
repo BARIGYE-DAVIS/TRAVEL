@@ -16,10 +16,10 @@ try {
   // Check if form is submitted using POST
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = mysqli_real_escape_string($conn, $_POST["name"]);
-    $number_of_people = mysqli_real_escape_string($conn, $_POST["number_of_people"]);
+    $number_of_people = mysqli_real_escape_string($conn, $_POST["number"]);
     $email = mysqli_real_escape_string($conn, $_POST["email"]);
-    $passport_number = mysqli_real_escape_string($conn, $_POST["passport_number"]);
-    $whatsapp_number = mysqli_real_escape_string($conn, $_POST["whatsapp_number"]);
+    $passport_number = mysqli_real_escape_string($conn, $_POST["number"]);
+    $whatsapp_number = mysqli_real_escape_string($conn, $_POST["telephone"]);
 
     // Prepare the form to be submitted with error handling
     $sql = "INSERT INTO `ORDE` (`NAME`, `NUMBER_OF_PEOPLE`, `EMAIL`, `PASSPORT_NUMBER`, `WHATSAPP_NUMBER`) VALUES (?, ?, ?, ?, ?)";
