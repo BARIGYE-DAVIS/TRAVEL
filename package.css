@@ -510,9 +510,11 @@ p {font-size: 25px;}
 #Entry.includes{
 width: 60vw;
 }
-.PERI.perice {
+.PERI.price {
     width: 50vw;
+    margin: 0 auto;
 }
+
 form.from {
     width: 70vw;
     margin-top: 1rem;
@@ -1142,17 +1144,23 @@ position: relative;
 .per { color: peru;
     padding: 1rem 2rem;
     font-size: 25px;
+    text-align: center;
+    display: none;
 }
 .price {
     color: green;
-  
     padding: .5rem 1rem;
     font-size: 25px;
+    margin: 50pt;
+    display: none;
+    
     
 }
 .PERI {
+
     width: 40rem ;
-    margin: 2rem;
+    
+
 }
 #MTN {
     padding: 1rem 2rem;
