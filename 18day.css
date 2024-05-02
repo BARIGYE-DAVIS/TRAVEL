@@ -157,7 +157,7 @@ flex-wrap: wrap;
     border-radius: 10px;
     margin-bottom: 40px;
     word-spacing: 5px;
-    width: 70vw;
+    width: fit-content;
 }
 
 .pone {
