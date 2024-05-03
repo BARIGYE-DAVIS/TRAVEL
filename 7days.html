@@ -210,11 +210,11 @@
         <div>
             <form   class="from" action="davsi.php" method="post"  >
                 <h3>Alternatively, request info</h3>
-            <DIv ><input type="text"  placeholder="YOUR NAME" class="grey"> </DIv>
-            <div><input type="email"  placeholder="Email" class="grey"></div>
-            <div><input type="number" placeholder="Nunber of days" class="grey"></div>
-            <div><input type="date"  placeholder="start date" class="grey"></div>
-            <div><textarea name="" id="" cols="30" rows="15" placeholder="message" class="grey"></textarea></div>
+            <DIv > <label for="name">NAME</label><input type="text" name="name"  placeholder="YOUR NAME" class="grey"> </DIv>
+            <div> <label for="email">EMAIL</label><input type="email"  placeholder="Email" class="grey"></div>
+            <div>  <label for="days">Number of Days</label><input type="number" name="days" placeholder="Nunber of days" class="grey"></div>
+           
+            <div><label for="message">message</label><textarea name="message" id="" cols="30" rows="15" placeholder="message" class="grey"></textarea></div>
             <button>SEND</button>
         
         </form>

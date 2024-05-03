@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
 
     // Prepare statement using prepared statements
-    $sql = "INSERT INTO users (NAME, DAYS, EMAIL, MESSAGE) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO bookings (NAME, DAYS, EMAIL, MESSAGE) VALUES (?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
 
     // Bind parameters to prevent SQL injection
