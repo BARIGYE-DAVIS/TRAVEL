@@ -1,107 +1,42 @@
 <?php
 
-$username = "root"; // Replace with your MySQL username
-$password = ""; // Replace with your MySQL password
-$dbname = "my database"; // Replace with your database name
+// Database connection details (replace with your own)
 $servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "my database";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection 
+
+// Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+  die("Connection failed: " . $conn->connect_error);
 }
-// Check if form is submitted using POST
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+// Escape user input to prevent SQL injection
+$firstName = mysqli_real_escape_string($conn, $_POST['First_name']);
+$lastName = mysqli_real_escape_string($conn, $_POST['Last_name']);
+$country = mysqli_real_escape_string($conn, $_POST['country']);
+$email = mysqli_real_escape_string($conn, $_POST['email']);
+$phone = mysqli_real_escape_string($conn, $_POST['phone']);
+$travelers = mysqli_real_escape_string($conn, $_POST['travelers']);
+$date = mysqli_real_escape_string($conn, $_POST['date']);
+$days = mysqli_real_escape_string($conn, $_POST['days']);
+$destination = mysqli_real_escape_string($conn, $_POST['destination']);
+$accommodation = mysqli_real_escape_string($conn, $_POST['accommodation']);
+$message = mysqli_real_escape_string($conn, $_POST['message']);
 
-  // Sanitize and validate user input
+// SQL insert statement
+$sql = "INSERT INTO contact_form (first_name, last_name,  email, phone, number_travelers, start_date, number_days, country, destinations, accommodation, message)
+VALUES ('$firstName', '$lastName',  '$email', '$phone', '$travelers', '$date', '$days','$country', '$destination', '$accommodation', '$message')";
 
-  $name_first = mysqli_real_escape_string($conn, $_POST ["First_name"]);
-  $name_last = mysqli_real_escape_string($conn, $_POST["Last_name"]);
-  $email = mysqli_real_escape_string($conn, $_POST["email"]);
-  $phone = mysqli_real_escape_string($conn, $_POST["phone"]);
-  $number_travelers = mysqli_real_escape_string( $conn, $_POST["number"]);
-  $start_date = mysqli_real_escape_string($conn, $_POST["date"]);
-  $number_days = mysqli_real_escape_string($conn, $_POST["number"]);
-
-  // Get selected interests (checkboxes)
-  $interests = array();
-  if (isset($_POST['mountain_Gorilla_trekking'])) {
-    $interests[] = 'mountain Gorilla trekking';
-  }
-  if (isset($_POST['Chimpanzee'])) {
-    $interests[] = 'Chimpanzee';
-  }
-  if (isset($_POST['Natural_walks'])){
-    $interests[] = 'Natural walks';
-  }
-  if (isset($_POST['champing _Safari_Holidays'])) {
-    $interests[] = 'champing Safari Holidays';
-  }
-  if (isset($_POST['Boat_Trips'])) {
-    $interests[] = 'Boat  Trips';
-  }
-  if (isset($_POST['Air Ballon_Adventures'])) {
-    $interests[] = 'Air Ballon Adventures';
-
-  }
-  if (isset($_POST['Rwenzo_Trekking'])) {
-    $interests[] = 'Rwenzo Trekking';
-  }
-  if (isset($_POST['family_Holiday'])) {
-    $interests[] = 'family Holiday';
-  }
-  // ... Add logic for other checkboxes
-
-  // Get selected destinations (checkboxes)
-  $destinations = array();
-  if (isset($_POST['uganda'])) {
-    $destinations[] = 'uganda'; // Array of selected destinations
-  }
-  if(isset($_POST['Rwanda'])) {
-    $destinations[] = 'Rwanda';
-  }
-  if (isset($_POST['Kenya'])){
-    $destinations[] = 'Kenya';
-  }
-  if (isset($_POST['Tanzania'])){
-    $destinations[] = 'Tanzania';
-  }
-
-  // Get desired accommodation (radio buttons)
-  $accommodation = filter_input(INPUT_POST, "Budget", FILTER_SANITIZE_STRING);
-
-  // Validate and process data further (optional)
-$sql = "INSERT INTO `contact_form` (`name_first`, `name_last `, `email `, `phone`, `number_travelers`, `start_date`, `number_days`, `interests`, `destinations`, `accommodations`) VALUES (?, ?, ?, ?, ?,?,?,?,?,?)";
- $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssssssssss", $name_first, $name_last, $email, $phone, $number_travelers, $start_date, $number_days, implode(',', $interests), implode(',', $destinations), $accommodation);
-  // Send email notification or store data in database (optional)
-
-  /*$message = "A new contact form submission has been received:\n\n";
-  $message .= "Name: $name_first $name_last\n";
-  $message .= "Email: $email\n";
-  $message .= "Phone: $phone\n";
-  $message .= "Number of Travelers: $number_travelers\n";
-  $message .= "Start Date: $start_date\n";
-  $message .= "Number of Days: $number_days\n";
-  $message .= "Interests:\n";
-  $message .= implode("\n", $interests); // List interests
-  $message .= "\nDestinations:\n";
-  $message .= implode("\n", $destinations); // List destinations
-  $message .= "\nDesired Accommodation: $accommodation";
-
-  // Replace with your actual mail sending logic
-  mail('barigyedavis6@gmail.com', 'Contact Form Submission', $message);
-*/
-  // Display success message or redirect to a confirmation page
-  if ($stmt->execute() === true) {
-    echo '<p>Thank you for contacting Apes Africa Safaris! Your message has been sent.</p>';
-  }
-else {
-    echo "Error: " . $stmt->error;
-  }
-  $stmt->close();
+if ($conn->query($sql) === TRUE) {
+  echo "New inquiry created successfully!, Thank you for contacting Apes Africa Safaris Tours and Travel Uganda";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
 }
+
+$conn->close();
 
 ?>
