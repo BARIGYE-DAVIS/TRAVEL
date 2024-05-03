@@ -681,6 +681,7 @@ margin-left: -10%;
     
     }
     .big {
+
         background-repeat: no-repeat;
         margin-bottom: -200px;
     }
@@ -876,7 +877,7 @@ border: 1px;
     margin-bottom: 50px;
   }  
   .best {
-    background-image: url(IMAGES/visit.jp.jpg);
+    background-image: url(IMAGES/ELEPHANT3.jpg);
     background-size: cover;
     object-fit: cover;
     height: 600PX;
